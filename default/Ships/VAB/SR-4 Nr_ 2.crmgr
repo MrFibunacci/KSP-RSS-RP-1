@@ -1,0 +1,26 @@
+craftName = SR-4 Nr. 2
+cachedCraftData
+{
+	origChecksum = d3976ce4fb0006764371e0eef14b685b
+	cacheVersion = 3
+	name = SR-4 Nr. 2
+	kspVersion = 1.12.3
+	stagesCount = 4
+	cost = 923.140625
+	partCount = 27
+	mass = 16.7201462
+	description = 
+	crewCapacity = 0
+	partNames = ROE-Aerobee
+	partNames = RO-RFTank-Seperate
+	partNames = RO-B9ProcWing-Early
+	partNames = proceduralAvionics
+	partNames = RC.stack
+	partNames = SXTProbeGooo
+	partNames = ROSmallSpinMotor
+	partNames = proceduralStackDecoupler
+	partNames = launchClamp1
+	partNames = RO-B9ProcCS-Early
+	partNames = ROE-XLR41
+	partNames = RO-RFTank-SM
+}

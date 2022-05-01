@@ -1,0 +1,30 @@
+craftName = EarthSat-2
+cachedCraftData
+{
+	origChecksum = 3cd3a252a51bfe6bae16f8aad0a46371
+	cacheVersion = 3
+	name = EarthSat-2
+	kspVersion = 1.12.3
+	stagesCount = 9
+	cost = 3212.39355
+	partCount = 32
+	mass = 49.0867615
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = ROT-RingDecoupler
+	partNames = RO-RFTank-Seperate
+	partNames = ROE-Aerobee
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = ROT-GenericTank-Separate
+	partNames = ROE-AJ10Early
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROT-GenericTank-Integral
+	partNames = ROE-LR79
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = SnubOtron
+	partNames = ROSmallSpinMotor
+}

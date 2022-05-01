@@ -1,0 +1,27 @@
+craftName = SR-5
+cachedCraftData
+{
+	origChecksum = bd5b90cf44603fbf046bf56cc36dd4ce
+	cacheVersion = 3
+	name = SR-5
+	kspVersion = 1.12.3
+	stagesCount = 3
+	cost = 1156.30359
+	partCount = 28
+	mass = 20.1444969
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = RO-RFTank-Seperate
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-XLR41
+	partNames = KzProcFairingSide1
+	partNames = RO-B9ProcWing-Supersonic
+	partNames = RO-B9ProcCS-Supersonic
+	partNames = ROE-SmallApolloLC
+	partNames = proceduralStackDecoupler
+	partNames = science.module
+	partNames = GooExperiment
+	partNames = RO-RFTank-SM
+	partNames = parachuteSingle
+}

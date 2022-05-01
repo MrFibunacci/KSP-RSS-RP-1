@@ -1,0 +1,29 @@
+craftName = X-1C
+cachedCraftData
+{
+	origChecksum = efaa9b609ad635674493e9af96fb9f57
+	cacheVersion = 3
+	name = X-1C
+	kspVersion = 1.12.3
+	stagesCount = 4
+	cost = 7202.51123
+	partCount = 57
+	mass = 36.8753624
+	description = 
+	crewCapacity = 1
+	partNames = RO-X1Cockpit
+	partNames = RO-RFTank-Seperate
+	partNames = RO-B9ProcWing-Supersonic
+	partNames = RO-B9ProcCS-Supersonic
+	partNames = SSTUHollowRing.Boattail
+	partNames = KzProcFairingSide1
+	partNames = parachuteRadial
+	partNames = GearFree
+	partNames = ROE-XLR11
+	partNames = radialDecoupler2
+	partNames = proceduralAvionics
+	partNames = SSTUHollowRing.Interstage
+	partNames = proceduralNoseCone
+	partNames = launchClamp1
+	partNames = ROE-LR79
+}

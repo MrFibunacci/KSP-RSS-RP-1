@@ -1,0 +1,24 @@
+craftName = SR-5b Nr. 9
+cachedCraftData
+{
+	origChecksum = f1d568c31b9d254515e4bffbf81c03da
+	cacheVersion = 3
+	name = SR-5b Nr. 9
+	kspVersion = 1.12.3
+	stagesCount = 1
+	cost = 795.94519
+	partCount = 23
+	mass = 20.1982422
+	description = 
+	crewCapacity = 0
+	partNames = RO-RFTank-Seperate
+	partNames = RO-RFTank-SM
+	partNames = proceduralAvionics
+	partNames = SSTUHollowRing.Interstage
+	partNames = KzProcFairingSide1
+	partNames = RO-B9ProcWing-Supersonic
+	partNames = RO-B9ProcCS-Supersonic
+	partNames = ROE-SmallApolloLC
+	partNames = ROE-XLR41
+	partNames = proceduralNoseCone
+}

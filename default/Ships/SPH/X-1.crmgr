@@ -1,0 +1,23 @@
+craftName = X-1
+cachedCraftData
+{
+	origChecksum = 3542f620ee7f4ca9f49b1405599c60b4
+	cacheVersion = 3
+	name = X-1
+	kspVersion = 1.12.3
+	stagesCount = 1
+	cost = 2173.31519
+	partCount = 29
+	mass = 13.0137796
+	description = Works buts is fucking unstable
+	crewCapacity = 1
+	partNames = RO-X1Cockpit
+	partNames = RO-RFTank-Seperate
+	partNames = GearFree
+	partNames = RO-B9ProcWing-Supersonic
+	partNames = RO-B9ProcCS-Supersonic
+	partNames = SSTUHollowRing.Boattail
+	partNames = KzProcFairingSide1
+	partNames = ROE-XLR11
+	partNames = parachuteRadial
+}

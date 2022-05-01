@@ -1,0 +1,23 @@
+craftName = PropPlain-1
+cachedCraftData
+{
+	origChecksum = 5dfa1d0a749f9d3b94b33eca4f22996a
+	cacheVersion = 3
+	name = PropPlain-1
+	kspVersion = 1.10.1
+	stagesCount = 0
+	cost = 335.685791
+	partCount = 20
+	mass = 4.93239832
+	description = 
+	crewCapacity = 2
+	partNames = SXTBuzzard
+	partNames = science.module
+	partNames = RO-RFTank-Seperate
+	partNames = SXTPWR2800
+	partNames = RO-B9ProcWing-Early
+	partNames = RO-B9ProcCS-Early
+	partNames = StandardCtrlSrf
+	partNames = GearSmall
+	partNames = GearFree
+}

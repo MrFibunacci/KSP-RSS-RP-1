@@ -1,0 +1,24 @@
+craftName = J-1
+cachedCraftData
+{
+	origChecksum = 55446033e7d43bcd3edccefa9b028755
+	cacheVersion = 3
+	name = J-1
+	kspVersion = 1.12.3
+	stagesCount = 1
+	cost = 1858.25244
+	partCount = 18
+	mass = 12.0193348
+	description = 
+	crewCapacity = 1
+	partNames = RO-X1Cockpit
+	partNames = RO-RFTank-Integral
+	partNames = LRadialAirIntake
+	partNames = RO-B9ProcAMWing-Early
+	partNames = RO-B9ProcWing-Supersonic
+	partNames = RO-B9ProcCS-Supersonic
+	partNames = GearSmall
+	partNames = proceduralNoseCone
+	partNames = RC.radial
+	partNames = RO-J57P8
+}

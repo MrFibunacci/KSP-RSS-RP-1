@@ -1,0 +1,23 @@
+craftName = SR-2
+cachedCraftData
+{
+	origChecksum = f4ff9e6a9d6a90e014dd442467076249
+	cacheVersion = 3
+	name = SR-2
+	kspVersion = 1.10.1
+	stagesCount = 3
+	cost = 369.043884
+	partCount = 24
+	mass = 1.06473529
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = RO-RFTank-Seperate
+	partNames = RO-B9ProcWing-Early
+	partNames = ROE-Aerobee
+	partNames = RC.stack
+	partNames = SXTProbeGooo
+	partNames = proceduralStackDecoupler
+	partNames = TinyTim
+	partNames = ROE-SmallLC
+}

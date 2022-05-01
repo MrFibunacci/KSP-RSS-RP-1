@@ -1,0 +1,24 @@
+craftName = U-2
+cachedCraftData
+{
+	origChecksum = 83a43ee7e19f35608a42fc3904a39c1f
+	cacheVersion = 3
+	name = U-2
+	kspVersion = 1.10.1
+	stagesCount = 1
+	cost = 899.479309
+	partCount = 26
+	mass = 11.1042967
+	description = 
+	crewCapacity = 1
+	partNames = RO-X1Cockpit
+	partNames = RO-RFTank-Seperate
+	partNames = aje.j57
+	partNames = RO-B9ProcWing-Supersonic
+	partNames = proceduralStructural
+	partNames = RO-B9ProcCS-Supersonic
+	partNames = SmallGearBay
+	partNames = GearFree
+	partNames = LRadialAirIntake
+	partNames = RC.radial
+}
