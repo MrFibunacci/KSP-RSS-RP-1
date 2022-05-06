@@ -19,7 +19,6 @@ GAME
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -force-d3d11-no-singlethreaded - 
 	versionFull = 1.12.3.3173 (WindowsPlayer x64)
 	versionCreated = 1.12.3.3173 (WindowsPlayer x64)
-	persistentTimestamp = 2022-05-06T19:44:49.5933533Z
 	RemovedROCs
 	{
 	}
@@ -2507,7 +2506,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 269095216.11501628
+		update = 269095226.13500673
 		version = 1.12.3
 		WEIGHTS
 		{
@@ -21385,7 +21384,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 269095219.73501283
+		savetime = 269095228.53500444
 		useUUID = True
 		KKSettings
 		{
@@ -26168,7 +26167,7 @@ GAME
 				{
 					shipName = EarthSat-4
 					shipID = 97c9bb38-0197-470e-be72-fa50df46ceb8
-					progress = 13.234191198348991
+					progress = 17.830986814498889
 					effectiveCost = 5307.9476125463261
 					buildTime = 1232969.2009474998
 					integrationTime = 2774180.7021318753
@@ -99948,7 +99947,7 @@ GAME
 				{
 					name = LaunchPad Reconditioning
 					BP = 31593.100762662001
-					progress = 594.92533574820459
+					progress = 599.52213136435364
 					cost = 0
 					associatedID = d650f94e-d8af-4c3b-8727-0e06bb9d0275
 					launchPadID = LaunchPad 2 (60t)
@@ -100022,7 +100021,7 @@ GAME
 				techName = Satellite Era Science
 				techID = scienceSatellite
 				scienceCost = 7
-				progress = 5.8322991109829392
+				progress = 5.8323039376119841
 				startYear = 1956
 				endYear = 1960
 				ProtoNode
@@ -108238,7 +108237,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.3
-		UT = 269095219.73501283
+		UT = 269095228.53500444
 		activeVessel = 0
 		mapViewFiltering = -1026
 		commNetUIModeTracking = Network
