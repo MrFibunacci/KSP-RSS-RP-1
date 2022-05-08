@@ -1,0 +1,19 @@
+craftName = SatBus-100
+cachedCraftData
+{
+	origChecksum = b90c902375963c23e7a2d5e834654d42
+	cacheVersion = 3
+	name = SatBus-100
+	kspVersion = 1.12.3
+	stagesCount = 2
+	cost = 373.008301
+	partCount = 6
+	mass = 0.538259745
+	description = 
+	crewCapacity = 0
+	partNames = RO-RFTank-Seperate
+	partNames = ROT-RingDecoupler
+	partNames = proceduralAvionics
+	partNames = ROE-Aerobee
+	partNames = ROSmallSpinMotor
+}

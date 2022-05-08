@@ -1,0 +1,26 @@
+craftName = R-110
+cachedCraftData
+{
+	origChecksum = 937f5280272ac20230463ffceb069e14
+	cacheVersion = 3
+	name = R-110
+	kspVersion = 1.12.3
+	stagesCount = 5
+	cost = 18108.1094
+	partCount = 34
+	mass = 60.5962563
+	description = 
+	crewCapacity = 0
+	partNames = RO-RFTank-BalloonNew
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = proceduralAvionics
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = RO-RFTank-Integral
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+}

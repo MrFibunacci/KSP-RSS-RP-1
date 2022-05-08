@@ -1,0 +1,22 @@
+craftName = SR-3
+cachedCraftData
+{
+	origChecksum = 8b12018e8b9ccffd0b3b9dfff2f0bbb3
+	cacheVersion = 3
+	name = SR-3
+	kspVersion = 1.10.1
+	stagesCount = 1
+	cost = 1045.7041
+	partCount = 15
+	mass = 16.0031223
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = RO-RFTank-Seperate
+	partNames = launchClamp1
+	partNames = GooExperiment
+	partNames = RC.stack
+	partNames = RO-B9ProcWing-Early
+	partNames = RO-B9ProcCS-Early
+	partNames = ROE-XLR41
+}

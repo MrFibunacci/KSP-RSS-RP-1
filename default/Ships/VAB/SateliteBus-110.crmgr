@@ -1,0 +1,20 @@
+craftName = SateliteBus-110
+cachedCraftData
+{
+	origChecksum = d474bc48e3be2d862846a4be7b35c38a
+	cacheVersion = 3
+	name = SateliteBus-110
+	kspVersion = 1.12.3
+	stagesCount = 2
+	cost = 1448.65649
+	partCount = 13
+	mass = 0.542801201
+	description = 
+	crewCapacity = 0
+	partNames = RO-RFTank-Seperate
+	partNames = ROT-RingDecoupler
+	partNames = proceduralAvionics
+	partNames = ROE-Aerobee
+	partNames = ROSmallSpinMotor
+	partNames = ROS-StaticSolarPanel
+}
