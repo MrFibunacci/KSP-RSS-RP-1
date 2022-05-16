@@ -1848,9 +1848,9 @@ GAME
 			id = RP0cosmicRay1_5@EarthInSpaceLow
 			title = Cosmic Ray Science 1.5 while in space near Earth
 			dsc = 0.196559995
-			scv = 0.950819135
+			scv = 0.950856209
 			sbv = 1
-			sci = 0.491808563
+			sci = 0.491437942
 			asc = True
 			cap = 10
 		}
@@ -1870,9 +1870,9 @@ GAME
 			id = micrometeoriteDetect@EarthInSpaceLow
 			title = Micrometeorite Detection while in space near Earth
 			dsc = 0.0702000037
-			scv = 0.949262977
+			scv = 0.94994688
 			sbv = 1
-			sci = 0.355159372
+			sci = 0.350371808
 			asc = True
 			cap = 7
 		}
@@ -1881,9 +1881,9 @@ GAME
 			id = RP0magScan1@EarthInSpaceLow
 			title = Magnetic Scan while in space near Earth
 			dsc = 0.436800003
-			scv = 0.856219053
+			scv = 0.856253266
 			sbv = 1
-			sci = 0.86268574
+			sci = 0.862480462
 			asc = True
 			cap = 6
 		}
@@ -2495,7 +2495,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = -1000
+		update = 292249166.11039871
 		version = 1.12.3
 		WEIGHTS
 		{
@@ -14029,7 +14029,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
-						title = Vessel: supersonicCraft
+						title = Vessel: supersonicCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -14077,7 +14077,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
-						title = Vessel: supersonicCraft
+						title = Vessel: supersonicCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -14793,7 +14793,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.RocketPlaneDevelopment
-						title = Vessel: crewedSuborbitalCraft
+						title = Vessel: crewedSuborbitalCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -14841,7 +14841,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.RocketPlaneDevelopment
-						title = Vessel: crewedSuborbitalCraft
+						title = Vessel: crewedSuborbitalCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -15120,7 +15120,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
-						title = Vessel: supersonicCraft
+						title = Vessel: supersonicCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -15168,7 +15168,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
-						title = Vessel: supersonicCraft
+						title = Vessel: supersonicCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -24006,8 +24006,8 @@ GAME
 	{
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
-		initialized = True
-		savetime = 292250487.14684075
+		initialized = False
+		savetime = 292249168.47039646
 		useUUID = True
 		KKSettings
 		{
@@ -24022,7 +24022,7 @@ GAME
 			mapShowRecovery = False
 			defaultVABlaunchsite = LaunchPad
 			defaultSPHlaunchsite = Runway
-			lastLaunchSiteUsed = Runway
+			lastLaunchSiteUsed = LaunchPad
 		}
 		Facilities
 		{
@@ -24678,21 +24678,21 @@ GAME
 		}
 		ENTRY
 		{
-			time = 292249266.750303
+			time = 292249145.970418
 			name = Axel Wagner
 			code = S+
 			data = 0.0352958256116835
 		}
 		ENTRY
 		{
-			time = 292249266.750303
+			time = 292249145.970418
 			name = Florence Garcia
 			code = S+
 			data = 15.0006437301636
 		}
 		ENTRY
 		{
-			time = 292249266.750303
+			time = 292249145.970418
 			name = Julia Becker
 			code = S+
 			data = 0.00398573241909616
@@ -38171,7 +38171,7 @@ GAME
 				{
 					shipName = EarthSat-7
 					shipID = dfb1eeb7-7110-47e9-9250-d20c9aba7d01
-					progress = 296838.66343998711
+					progress = 295858.45361866779
 					effectiveCost = 6537.3271445463251
 					buildTime = 1445990.9089265098
 					integrationTime = 3253479.5450846474
@@ -113685,7 +113685,7 @@ GAME
 				techName = 1958 Orbital Rocketry
 				techID = orbitalRocketry1958
 				scienceCost = 12
-				progress = 5.9106979332480218
+				progress = 5.9095939625723402
 				startYear = 1958
 				endYear = 1958
 				ProtoNode
@@ -118212,6 +118212,7 @@ GAME
 		RETIREES
 		{
 			retiree = Dmitriy Fedoseyev
+			retiree = Axel Wagner
 			retiree = Julia Becker
 			retiree = Florence Garcia
 		}
@@ -120461,7 +120462,6 @@ GAME
 		reflectionType = Real
 		Kerbals
 		{
-			Axel Wagner = GENERIC GENERIC
 		}
 		ClassSuits
 		{
@@ -120478,7 +120478,7 @@ GAME
 		scene = 5, 8, 7, 6
 		version = 3.14
 		uid = 1023167564
-		uncreditedScience = 0.0052776207490131972
+		uncreditedScience = 1.2553418943168439E-05
 		kerbals
 		{
 			Charles___Lewis
@@ -122322,8 +122322,8 @@ GAME
 				cfg_showlink = True
 				cfg_show = True
 				deviceTransmit = True
-				solarPanelsAverageExposure = 0.30050212233940271
-				scienceTransmitted = 1.80800271394092
+				solarPanelsAverageExposure = 0.23095967818272903
+				scienceTransmitted = 1.8027376466110623
 				StormData
 				{
 					storm_time = 0
@@ -122344,7 +122344,7 @@ GAME
 				{
 					ElectricCharge
 					{
-						message = 0
+						message = 2
 					}
 					Food
 					{
@@ -122609,19 +122609,19 @@ GAME
 							{
 								RP0magScan1@-16515071
 								{
-									size = 0.010162387511890114
+									size = 0.010077917211459184
 									resultText = Magnetic Scan Data Acquired
 									useStockCrediting = False
 								}
 								RP0cosmicRay1_5@-16515071
 								{
-									size = 0.00012291849566623827
+									size = 0.00011581349582504458
 									resultText = Cosmic Ray Science 1.5 Data Acquired
 									useStockCrediting = False
 								}
 								micrometeoriteDetect@-16515071
 								{
-									size = 0.0019950925737586968
+									size = 0.0023126522829204992
 									resultText = Micrometeorite Detection Data Acquired
 									useStockCrediting = False
 								}
@@ -122688,7 +122688,7 @@ GAME
 			}
 			RP0cosmicRay1_5@-16515071
 			{
-				percentRetrieved = 0.049173528226010663
+				percentRetrieved = 0.049141894119362463
 			}
 			RP0-SupersonicLow1@-16646143
 			{
@@ -122708,7 +122708,7 @@ GAME
 			}
 			RP0cosmicRay1@-16515071
 			{
-				percentRetrieved = 4.9173527493300533
+				percentRetrieved = 4.9141893387093765
 			}
 			RP0magScan1@150994945
 			{
@@ -122716,7 +122716,7 @@ GAME
 			}
 			RP0magScan1@-16515071
 			{
-				percentRetrieved = 0.14377759058910386
+				percentRetrieved = 0.14374786684151616
 			}
 			RP0massSpec1@1
 			{
@@ -122736,7 +122736,7 @@ GAME
 			}
 			micrometeoriteDetect@-16515071
 			{
-				percentRetrieved = 0.050734157986967489
+				percentRetrieved = 0.05005267459013777
 			}
 			RP0photos1@196609
 			{
@@ -123022,7 +123022,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.3
-		UT = 292250487.14684075
+		UT = 292249168.47039646
 		activeVessel = 0
 		mapViewFiltering = 31743
 		commNetUIModeTracking = Network
@@ -123071,13 +123071,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 3185499.4265258303
-				ECC = 0.99999999999999989
-				INC = 61.637365510796492
+				SMA = 0
+				ECC = 1
+				INC = 61.637365510796236
 				LPE = 90
-				LAN = 213.99298494105869
-				MNA = 3.1415926207170166
-				EPH = 292249266.77030271
+				LAN = 213.48835761851328
+				MNA = 0
+				EPH = 292249145.9904179
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -123551,11 +123551,11 @@ GAME
 			{
 				SMA = 0
 				ECC = 1
-				INC = 61.659940766658025
+				INC = 61.65994076665816
 				LPE = 90.000000000000014
-				LAN = 213.95202198054614
+				LAN = 213.44739465800055
 				MNA = 0
-				EPH = 292249266.77030271
+				EPH = 292249145.9904179
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -124027,13 +124027,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 61.635552435163163
-				LPE = 90
-				LAN = 213.92407529324944
-				MNA = 0
-				EPH = 292249266.77030271
+				SMA = 3185499.3566466393
+				ECC = 0.99999999999999989
+				INC = 61.635552435163468
+				LPE = 90.000000000000014
+				LAN = 213.41944797070383
+				MNA = 3.1415926207170166
+				EPH = 292249145.9904179
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -131556,7 +131556,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9999.9999999999964
+					amount = 9999.3367573265296
 					maxAmount = 9999.9999999999964
 					flowState = True
 					isTweakable = True
@@ -140841,18 +140841,18 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 431959.51985538006
+			met = 108221.40873777866
 			lct = 291817282.17047125
-			lastUT = 292249241.75032657
-			distanceTraveled = 5624538.983123186
+			lastUT = 291925503.57920903
+			distanceTraveled = 4772826.4888310637
 			root = 0
-			lat = 4.5359774320094992
-			lon = -5.0631407462860141
-			alt = 1448525.7634298466
-			hgt = 1448525.75
-			nrm = -0.705924511,0.277909994,0.651488006
-			rot = -0.221117109,0.615050256,-0.673383713,0.345506668
-			CoM = 9.52401024E-07,-0.000582954555,6.30454451E-07
+			lat = -0.73801103254909239
+			lon = 94.530518258859729
+			alt = 2075345.8594374247
+			hgt = 2075345.88
+			nrm = 0.0946379304,-0.987919867,-0.122711718
+			rot = 0.742270589,0.0418934152,0.0786297545,-0.664151251
+			CoM = -2.80095264E-07,-0.000583989779,1.0750955E-07
 			stg = 0
 			prst = False
 			ref = 1042449687
@@ -140865,18 +140865,18 @@ GAME
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
 			altDispState = ASL
-			cPch = 0.1479999
-			cHdg = 2.82
+			cPch = 0.594
+			cHdg = -2.13
 			cMod = 0
 			ORBIT
 			{
-				SMA = 8519120.5256808363
-				ECC = 0.18649624159612921
-				INC = 28.668700165927294
-				LPE = 96.565826503758828
-				LAN = 202.48456042325776
-				MNA = 0.94738354283562143
-				EPH = 292249241.73032659
+				SMA = 8520058.7783512324
+				ECC = 0.18655565042694366
+				INC = 28.671432929643188
+				LPE = 96.590694945715867
+				LAN = 202.48320341417536
+				MNA = 4.9451364748452997
+				EPH = 291925503.57920903
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -140906,8 +140906,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0453796387
 				shielded = False
-				temp = 233.78833004875329
-				tempExt = 233.67969285987789
+				temp = 171.95555359548086
+				tempExt = 165.10267819074568
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -141252,8 +141252,8 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 4998.6491430402284
-						maxAmount = 4999.9999999999818
+						amount = 3589.0751146531497
+						maxAmount = 4999.9999999999827
 					}
 					UPGRADESAPPLIED
 					{
@@ -142597,7 +142597,7 @@ GAME
 					name = Experiment
 					isEnabled = False
 					issue = 
-					situationId = 84148225
+					situationId = 117702657
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -142632,7 +142632,7 @@ GAME
 					name = Experiment
 					isEnabled = False
 					issue = 
-					situationId = 84148225
+					situationId = 117702657
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -142667,7 +142667,7 @@ GAME
 					name = Experiment
 					isEnabled = False
 					issue = 
-					situationId = 84148225
+					situationId = 117702657
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -142702,7 +142702,7 @@ GAME
 					name = Experiment
 					isEnabled = False
 					issue = 
-					situationId = 84148225
+					situationId = 117702657
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -142737,7 +142737,7 @@ GAME
 					name = Experiment
 					isEnabled = False
 					issue = 
-					situationId = 84148225
+					situationId = 117702657
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -142772,42 +142772,7 @@ GAME
 					name = Experiment
 					isEnabled = False
 					issue = 
-					situationId = 84148225
-					didPrepare = False
-					shrouded = False
-					remainingSampleMass = 0
-					privateHdId = 0
-					firstStart = False
-					prodFactor = 0
-					expState = Stopped
-					status = Stopped
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						StartAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-						StopAction
-						{
-							actionGroup = None
-							wasActiveBeforePartWasAdjusted = False
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = Experiment
-					isEnabled = False
-					issue = 
-					situationId = -16515071
+					situationId = 117702657
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -142877,7 +142842,7 @@ GAME
 					name = Experiment
 					isEnabled = False
 					issue = 
-					situationId = 84148225
+					situationId = -16515071
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -142912,7 +142877,42 @@ GAME
 					name = Experiment
 					isEnabled = False
 					issue = 
-					situationId = 84148225
+					situationId = 117702657
+					didPrepare = False
+					shrouded = False
+					remainingSampleMass = 0
+					privateHdId = 0
+					firstStart = False
+					prodFactor = 0
+					expState = Stopped
+					status = Stopped
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						StartAction
+						{
+							actionGroup = None
+							wasActiveBeforePartWasAdjusted = False
+						}
+						StopAction
+						{
+							actionGroup = None
+							wasActiveBeforePartWasAdjusted = False
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = Experiment
+					isEnabled = False
+					issue = 
+					situationId = 117702657
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -143090,8 +143090,8 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4993.5307540620279
-					maxAmount = 4999.9999999999818
+					amount = 0.00082078052230621316
+					maxAmount = 4999.9999999999827
 					flowState = True
 					isTweakable = True
 					hideFlow = False
@@ -143123,8 +143123,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.00216999999
 				shielded = False
-				temp = 233.74906229243555
-				tempExt = 233.63336008823492
+				temp = 171.95792750742751
+				tempExt = 168.94964347761049
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -143345,8 +143345,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.000500000024
 				shielded = False
-				temp = 233.61111389797014
-				tempExt = 233.57561157483286
+				temp = 164.11167494125962
+				tempExt = 164.2299308957715
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -143583,8 +143583,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.0149999997
 				shielded = False
-				temp = 234.31460800853344
-				tempExt = 234.65341563572341
+				temp = 172.2543610739082
+				tempExt = 165.79257355453092
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -143810,8 +143810,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.00179199991
 				shielded = False
-				temp = 233.50204898504018
-				tempExt = 233.41863093750621
+				temp = 164.42561657206045
+				tempExt = 163.65403155791208
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -143996,7 +143996,7 @@ GAME
 					isEnabled = True
 					editorEnabled = True
 					nominalRate = 0.010080000385642052
-					persistentFactor = 0.31191617738438171
+					persistentFactor = 0.18630536863918312
 					state = Static
 					trackedSunIndex = 0
 					manualTracking = False
@@ -144079,8 +144079,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.00179199991
 				shielded = False
-				temp = 233.65619695053252
-				tempExt = 233.61769467025366
+				temp = 164.56510734057247
+				tempExt = 163.68161407887567
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -144265,7 +144265,7 @@ GAME
 					isEnabled = True
 					editorEnabled = True
 					nominalRate = 0.010080000385642052
-					persistentFactor = 0.94364489569454102
+					persistentFactor = 0.31512687991392918
 					state = Static
 					trackedSunIndex = 0
 					manualTracking = False
@@ -144348,8 +144348,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.00179199991
 				shielded = False
-				temp = 233.68114684684357
-				tempExt = 233.60078565322314
+				temp = 164.71266121562064
+				tempExt = 163.70651500449105
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -144534,7 +144534,7 @@ GAME
 					isEnabled = True
 					editorEnabled = True
 					nominalRate = 0.010080000385642052
-					persistentFactor = 0.63172796760709715
+					persistentFactor = 0.12882080152511743
 					state = Static
 					trackedSunIndex = 0
 					manualTracking = False
@@ -144617,8 +144617,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.00179199991
 				shielded = False
-				temp = 233.66064637499659
-				tempExt = 233.60126213190128
+				temp = 164.43188932565229
+				tempExt = 163.65562577360555
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -144886,8 +144886,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.00179199991
 				shielded = False
-				temp = 233.56426084061434
-				tempExt = 233.47305139917961
+				temp = 164.5655011819704
+				tempExt = 163.68162872524229
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -145155,8 +145155,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.00179199991
 				shielded = False
-				temp = 233.53355382363816
-				tempExt = 233.43452219272609
+				temp = 164.58665708585363
+				tempExt = 163.68546305679234
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -145419,8 +145419,8 @@ GAME
 				srfN = srfAttach, 0,collisionMesh
 				mass = 0.00649614492
 				shielded = False
-				temp = 233.8448809695609
-				tempExt = 233.82674156313522
+				temp = 168.52536934045764
+				tempExt = 166.59975415696701
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -145605,7 +145605,7 @@ GAME
 					isEnabled = True
 					editorEnabled = True
 					nominalRate = 0.036540817469358444
-					persistentFactor = 0.27466531410503736
+					persistentFactor = 0.94846923730061539
 					state = Static
 					trackedSunIndex = 0
 					manualTracking = False
@@ -145713,11 +145713,11 @@ GAME
 				}
 				VesselModuleRotationRO
 				{
-					angularVelocity = (-0.248725876, -7.52940893, -0.495738089)
+					angularVelocity = (-0.421730369, -7.56153774, -0.328995347)
 					autopilotTargetHold = False
 					autopilotMode = 0
 					autopilotContext = 0
-					lastUT = 292249241.75032657
+					lastUT = 291925503.57920903
 				}
 				UllageModule
 				{
@@ -145725,7 +145725,7 @@ GAME
 				RACommNetVessel
 				{
 					powered = True
-					controlState = ProbeFull
+					controlState = ProbePartial
 					canComm = True
 				}
 				KSPWheelVesselDebug
@@ -148840,7 +148840,7 @@ GAME
 			badS = False
 			veteran = True
 			tour = False
-			state = Available
+			state = Dead
 			inactive = False
 			inactiveTimeEnd = 220022682.74856904
 			gExperienced = 0
@@ -148859,7 +148859,16 @@ GAME
 			hero = True
 			INVENTORY
 			{
+				name = ModuleInventoryPart
+				isEnabled = True
+				stagingEnabled = True
 				inventory = evaChute
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
 				STOREDPARTS
 				{
 					STOREDPART
@@ -148872,7 +148881,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4293689806
+							cid = 4293690756
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -149045,6 +149054,9 @@ GAME
 							}
 						}
 					}
+				}
+				UPGRADESAPPLIED
+				{
 				}
 			}
 			CAREER_LOG
@@ -151838,6 +151850,62 @@ GAME
 	MESSAGESYSTEM
 	{
 		flash = True
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>First Scientific Satellite</b>~n~nCongratulations! The satellite you sent into orbit has returned extremely valuable data that has proven the existence of the Van Allen Radiation Belts.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  159,960   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 30   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Uncrewed Altitude Record of 2000 km.</b>~n~nCongratulations! You've set a new uncrewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  13,152   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 8   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = FMRS Recovery Info: EarthSat-6 Probe
+			message = Funds: +1075.46~nRecovery Factor Distance: 83%~n~nParts & Resources:~n       1 x IB - Procedural Hollow Interstage Ring~n       1 x Avionics [Procedural]~n       2 x Parachute [Radial]~n       ~n
+			color = 2
+			icon = 5
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Uncrewed Altitude Record of 1000 km.</b>~n~nCongratulations! You've set a new uncrewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  11,712   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 6   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Uncrewed Altitude Record of 900.0001 km.</b>~n~nCongratulations! You've set a new uncrewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  11,568   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 6   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Uncrewed Altitude Record of 800.0001 km.</b>~n~nCongratulations! You've set a new uncrewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  11,424   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 6   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Vessel Complete!
+			message = The following vessel is complete:~nEarthSat-6~nPlease check the VAB Storage at us_cape_canaveral to launch it.~n
+			color = 2
+			icon = 3
+			read = False
+		}
 	}
 	VMSNode
 	{

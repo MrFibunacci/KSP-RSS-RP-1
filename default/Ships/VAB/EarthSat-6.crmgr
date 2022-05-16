@@ -1,14 +1,14 @@
 craftName = EarthSat-6
 cachedCraftData
 {
-	origChecksum = 74e38a611b447c306e1ef955e8eb89d4
+	origChecksum = c361f7a9250d3a7997049edd1a0b8326
 	cacheVersion = 3
 	name = EarthSat-6
 	kspVersion = 1.12.3
 	stagesCount = 9
-	cost = 3311.08569
-	partCount = 32
-	mass = 49.2486
+	cost = 3720.4126
+	partCount = 35
+	mass = 49.2770004
 	description = 
 	crewCapacity = 0
 	partNames = RO-RFTank-Seperate
@@ -16,7 +16,9 @@ cachedCraftData
 	partNames = proceduralAvionics
 	partNames = ROE-Aerobee
 	partNames = ROSmallSpinMotor
-	partNames = ROS-StaticSolarPanel
+	partNames = RO-Micrometeorite
+	partNames = RO-GeigerMuller
+	partNames = RO-EarlyMagnet
 	partNames = RSBRibbedBase
 	partNames = KzProcFairingSide1
 	partNames = ROT-GenericTank-Separate
@@ -27,4 +29,5 @@ cachedCraftData
 	partNames = ROE-LR79
 	partNames = ROE-MediumLC
 	partNames = launchClamp1
+	partNames = ROS-StaticSolarPanel
 }

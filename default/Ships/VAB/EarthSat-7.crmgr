@@ -1,14 +1,14 @@
 craftName = EarthSat-7
 cachedCraftData
 {
-	origChecksum = c2399786ef89eba7a11586b2aeb8421b
+	origChecksum = fd04359b9e5bc66e2c459f9b6b4772c5
 	cacheVersion = 3
 	name = EarthSat-7
 	kspVersion = 1.12.3
 	stagesCount = 9
-	cost = 3344.08569
-	partCount = 32
-	mass = 49.2536011
+	cost = 4005.2854
+	partCount = 36
+	mass = 49.4720459
 	description = 
 	crewCapacity = 0
 	partNames = RO-RFTank-Seperate
@@ -27,4 +27,5 @@ cachedCraftData
 	partNames = ROE-MediumLC
 	partNames = launchClamp1
 	partNames = SnubOtron
+	partNames = RC.radial
 }

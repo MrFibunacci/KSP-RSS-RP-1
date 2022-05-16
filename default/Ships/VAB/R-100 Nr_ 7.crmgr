@@ -1,0 +1,25 @@
+craftName = R-100 Nr. 7
+cachedCraftData
+{
+	origChecksum = 57013473a0624f6eb2db14300f7b5cfc
+	cacheVersion = 3
+	name = R-100 Nr. 7
+	kspVersion = 1.12.3
+	stagesCount = 5
+	cost = 3306.51416
+	partCount = 17
+	mass = 45.8800354
+	description = 
+	crewCapacity = 0
+	partNames = RSBRibbedBase
+	partNames = proceduralAvionics
+	partNames = ROT-GenericTank-Separate
+	partNames = ROE-AJ10Early
+	partNames = SSTUHollowRing.Interstage
+	partNames = KzProcFairingSide1
+	partNames = RO-RFTank-Seperate
+	partNames = ROE-LR79
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = SnubOtron
+}

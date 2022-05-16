@@ -1848,9 +1848,9 @@ GAME
 			id = RP0cosmicRay1_5@EarthInSpaceLow
 			title = Cosmic Ray Science 1.5 while in space near Earth
 			dsc = 0.196559995
-			scv = 0.950819135
+			scv = 0.950845361
 			sbv = 1
-			sci = 0.491808563
+			sci = 0.491546422
 			asc = True
 			cap = 10
 		}
@@ -1870,9 +1870,9 @@ GAME
 			id = micrometeoriteDetect@EarthInSpaceLow
 			title = Micrometeorite Detection while in space near Earth
 			dsc = 0.0702000037
-			scv = 0.949262977
+			scv = 0.949545383
 			sbv = 1
-			sci = 0.355159372
+			sci = 0.353182524
 			asc = True
 			cap = 7
 		}
@@ -1881,9 +1881,9 @@ GAME
 			id = RP0magScan1@EarthInSpaceLow
 			title = Magnetic Scan while in space near Earth
 			dsc = 0.436800003
-			scv = 0.856219053
+			scv = 0.856220722
 			sbv = 1
-			sci = 0.86268574
+			sci = 0.862675607
 			asc = True
 			cap = 6
 		}
@@ -2495,7 +2495,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = -1000
+		update = 292249261.89030737
 		version = 1.12.3
 		WEIGHTS
 		{
@@ -2836,6 +2836,7 @@ GAME
 					notes = 
 					completedMessage = 
 					duration = 0
+					trackedVessel = a9175242-b41a-4588-a794-8f7c52f2945d
 					dissassociateVesselsOnContractFailure = True
 					dissassociateVesselsOnContractCompletion = False
 					PARAM
@@ -3300,6 +3301,7 @@ GAME
 					completedMessage = 
 					define = PolarSat
 					duration = 0
+					trackedVessel = a9175242-b41a-4588-a794-8f7c52f2945d
 					dissassociateVesselsOnContractFailure = True
 					dissassociateVesselsOnContractCompletion = False
 					PARAM
@@ -14029,7 +14031,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
-						title = Vessel: supersonicCraft
+						title = Vessel: supersonicCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -14077,7 +14079,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
-						title = Vessel: supersonicCraft
+						title = Vessel: supersonicCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -14793,7 +14795,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.RocketPlaneDevelopment
-						title = Vessel: crewedSuborbitalCraft
+						title = Vessel: crewedSuborbitalCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -14841,7 +14843,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.RocketPlaneDevelopment
-						title = Vessel: crewedSuborbitalCraft
+						title = Vessel: crewedSuborbitalCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -15120,7 +15122,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
-						title = Vessel: supersonicCraft
+						title = Vessel: supersonicCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -15168,7 +15170,7 @@ GAME
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
-						title = Vessel: supersonicCraft
+						title = Vessel: supersonicCraft (TBD)
 						notes = 
 						completedMessage = 
 					}
@@ -24006,8 +24008,8 @@ GAME
 	{
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
-		initialized = True
-		savetime = 292250487.14684075
+		initialized = False
+		savetime = 292249266.75030273
 		useUUID = True
 		KKSettings
 		{
@@ -24022,7 +24024,7 @@ GAME
 			mapShowRecovery = False
 			defaultVABlaunchsite = LaunchPad
 			defaultSPHlaunchsite = Runway
-			lastLaunchSiteUsed = Runway
+			lastLaunchSiteUsed = LaunchPad
 		}
 		Facilities
 		{
@@ -24678,21 +24680,21 @@ GAME
 		}
 		ENTRY
 		{
-			time = 292249266.750303
+			time = 292249241.750327
 			name = Axel Wagner
 			code = S+
 			data = 0.0352958256116835
 		}
 		ENTRY
 		{
-			time = 292249266.750303
+			time = 292249241.750327
 			name = Florence Garcia
 			code = S+
 			data = 15.0006437301636
 		}
 		ENTRY
 		{
-			time = 292249266.750303
+			time = 292249241.750327
 			name = Julia Becker
 			code = S+
 			data = 0.00398573241909616
@@ -38171,7 +38173,7 @@ GAME
 				{
 					shipName = EarthSat-7
 					shipID = dfb1eeb7-7110-47e9-9250-d20c9aba7d01
-					progress = 296838.66343998711
+					progress = 295931.28474921361
 					effectiveCost = 6537.3271445463251
 					buildTime = 1445990.9089265098
 					integrationTime = 3253479.5450846474
@@ -113685,7 +113687,7 @@ GAME
 				techName = 1958 Orbital Rocketry
 				techID = orbitalRocketry1958
 				scienceCost = 12
-				progress = 5.9106979332480218
+				progress = 5.9096759891432908
 				startYear = 1958
 				endYear = 1958
 				ProtoNode
@@ -120461,7 +120463,6 @@ GAME
 		reflectionType = Real
 		Kerbals
 		{
-			Axel Wagner = GENERIC GENERIC
 		}
 		ClassSuits
 		{
@@ -120478,7 +120479,7 @@ GAME
 		scene = 5, 8, 7, 6
 		version = 3.14
 		uid = 1023167564
-		uncreditedScience = 0.0052776207490131972
+		uncreditedScience = 0.0030599715440078903
 		kerbals
 		{
 			Charles___Lewis
@@ -122323,7 +122324,7 @@ GAME
 				cfg_show = True
 				deviceTransmit = True
 				solarPanelsAverageExposure = 0.30050212233940271
-				scienceTransmitted = 1.80800271394092
+				scienceTransmitted = 1.8057850647357678
 				StormData
 				{
 					storm_time = 0
@@ -122609,19 +122610,19 @@ GAME
 							{
 								RP0magScan1@-16515071
 								{
-									size = 0.010162387511890114
+									size = 0.010103337210890273
 									resultText = Magnetic Scan Data Acquired
 									useStockCrediting = False
 								}
 								RP0cosmicRay1_5@-16515071
 								{
-									size = 0.00012291849566623827
+									size = 0.00012216849568300178
 									resultText = Cosmic Ray Science 1.5 Data Acquired
 									useStockCrediting = False
 								}
 								micrometeoriteDetect@-16515071
 								{
-									size = 0.0019950925737586968
+									size = 0.0021230622697964831
 									resultText = Micrometeorite Detection Data Acquired
 									useStockCrediting = False
 								}
@@ -122688,7 +122689,7 @@ GAME
 			}
 			RP0cosmicRay1_5@-16515071
 			{
-				percentRetrieved = 0.049173528226010663
+				percentRetrieved = 0.049151153378619215
 			}
 			RP0-SupersonicLow1@-16646143
 			{
@@ -122708,7 +122709,7 @@ GAME
 			}
 			RP0cosmicRay1@-16515071
 			{
-				percentRetrieved = 4.9173527493300533
+				percentRetrieved = 4.9151152646235579
 			}
 			RP0magScan1@150994945
 			{
@@ -122716,7 +122717,7 @@ GAME
 			}
 			RP0magScan1@-16515071
 			{
-				percentRetrieved = 0.14377759058910386
+				percentRetrieved = 0.1437756446184659
 			}
 			RP0massSpec1@1
 			{
@@ -122736,7 +122737,7 @@ GAME
 			}
 			micrometeoriteDetect@-16515071
 			{
-				percentRetrieved = 0.050734157986967489
+				percentRetrieved = 0.050450983000217886
 			}
 			RP0photos1@196609
 			{
@@ -123022,7 +123023,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.3
-		UT = 292250487.14684075
+		UT = 292249266.75030273
 		activeVessel = 0
 		mapViewFiltering = 31743
 		commNetUIModeTracking = Network
@@ -123071,13 +123072,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 3185499.4265258303
-				ECC = 0.99999999999999989
+				SMA = 0
+				ECC = 1
 				INC = 61.637365510796492
-				LPE = 90
-				LAN = 213.99298494105869
-				MNA = 3.1415926207170166
-				EPH = 292249266.77030271
+				LPE = 90.000000000000014
+				LAN = 213.88853318529846
+				MNA = 0
+				EPH = 292249241.77032655
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -123549,13 +123550,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
+				SMA = 3185499.5495512644
+				ECC = 0.99999999999999989
 				INC = 61.659940766658025
-				LPE = 90.000000000000014
-				LAN = 213.95202198054614
-				MNA = 0
-				EPH = 292249266.77030271
+				LPE = 90
+				LAN = 213.8475702247859
+				MNA = 3.1415926207170166
+				EPH = 292249241.77032655
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -124031,9 +124032,9 @@ GAME
 				ECC = 1
 				INC = 61.635552435163163
 				LPE = 90
-				LAN = 213.92407529324944
+				LAN = 213.81962353748921
 				MNA = 0
-				EPH = 292249266.77030271
+				EPH = 292249241.77032655
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -131556,7 +131557,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 9999.9999999999964
+					amount = 9999.1376123219943
 					maxAmount = 9999.9999999999964
 					flowState = True
 					isTweakable = True
@@ -143090,7 +143091,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4993.5307540620279
+					amount = 4998.0817705262807
 					maxAmount = 4999.9999999999818
 					flowState = True
 					isTweakable = True
@@ -148859,7 +148860,16 @@ GAME
 			hero = True
 			INVENTORY
 			{
+				name = ModuleInventoryPart
+				isEnabled = True
+				stagingEnabled = True
 				inventory = evaChute
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
 				STOREDPARTS
 				{
 					STOREDPART
@@ -148872,7 +148882,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4293689806
+							cid = 4293690756
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -149045,6 +149055,9 @@ GAME
 							}
 						}
 					}
+				}
+				UPGRADESAPPLIED
+				{
 				}
 			}
 			CAREER_LOG
