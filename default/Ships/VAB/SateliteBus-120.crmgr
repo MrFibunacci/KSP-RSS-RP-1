@@ -1,0 +1,18 @@
+craftName = SateliteBus-120
+cachedCraftData
+{
+	origChecksum = ad1f649bd02f5b7174ff9a5c8f4f441b
+	cacheVersion = 3
+	name = SateliteBus-120
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 1665.52539
+	partCount = 8
+	mass = 0.187744647
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+}

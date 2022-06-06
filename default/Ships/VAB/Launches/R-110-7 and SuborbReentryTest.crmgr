@@ -1,0 +1,29 @@
+craftName = R-110-7 and SuborbReentryTest
+cachedCraftData
+{
+	origChecksum = 97d241ccfcf49fcfad619882e54fc4dd
+	cacheVersion = 3
+	name = R-110-7 and SuborbReentryTest
+	kspVersion = 1.12.3
+	stagesCount = 5
+	cost = 3918.00586
+	partCount = 38
+	mass = 56.7271767
+	description = 
+	crewCapacity = 0
+	partNames = RP0-SampleReturnCommand
+	partNames = RP0-SampleReturnCapsule
+	partNames = RO-EarlyTVCamera
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = proceduralAvionics
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = RO-RFTank-Integral
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = parachuteRadial
+}

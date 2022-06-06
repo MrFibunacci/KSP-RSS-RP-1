@@ -18,6 +18,7 @@ availableTag = Type\Unmanned
 availableTag = Status\Prototype
 availableTag = Status\Final
 availableTag = MasterpieceAmongCrafts
+availableTag = Type\RO
 SphInSph_isRestFilterTagsCollapsed = False
 SphInSph_isRestManagementTagsCollapsed = False
 SphInSph_filterText = 

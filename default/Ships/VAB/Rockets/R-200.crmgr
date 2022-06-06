@@ -1,0 +1,26 @@
+craftName = R-200
+cachedCraftData
+{
+	origChecksum = 05d31c92916d0d8ecb063f4665bea6ea
+	cacheVersion = 3
+	name = R-200
+	kspVersion = 1.12.3
+	stagesCount = 6
+	cost = 35524.2148
+	partCount = 38
+	mass = 190.751755
+	description = At 4t payload 9 Km/s dv
+	crewCapacity = 0
+	partNames = RO-RFTank-BalloonNew
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = proceduralAvionics
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-LR91
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-LR87
+	partNames = AM.MLP.LargeLaunchStand
+	partNames = radialDecoupler1-2
+	partNames = ROE-LR87.Single
+}

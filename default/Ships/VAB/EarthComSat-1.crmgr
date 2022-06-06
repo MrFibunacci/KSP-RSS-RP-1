@@ -1,0 +1,31 @@
+craftName = EarthComSat-1
+cachedCraftData
+{
+	origChecksum = adb994b8b52ee0d442564a803ed0db75
+	cacheVersion = 3
+	name = EarthComSat-1
+	kspVersion = 1.12.3
+	stagesCount = 6
+	cost = 7494.91357
+	partCount = 46
+	mass = 57.0439529
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = ROT-ServiceModule
+	partNames = ROT-RingDecoupler
+	partNames = ROE-Aerobee
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = parachuteRadial
+}

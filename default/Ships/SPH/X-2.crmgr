@@ -1,26 +1,27 @@
 craftName = X-2
 cachedCraftData
 {
-	origChecksum = d7ceb6d55f2135c5a675c802a6da9a48
+	origChecksum = bb2c94cb5f3bb6c48ca6664e2c695ca6
 	cacheVersion = 3
 	name = X-2
-	kspVersion = 1.10.1
-	stagesCount = 1
-	cost = 8100.61523
-	partCount = 38
-	mass = 12.7694588
+	kspVersion = 1.12.3
+	stagesCount = 3
+	cost = 8739.25
+	partCount = 46
+	mass = 12.8500872
 	description = 
 	crewCapacity = 1
 	partNames = Mark1Cockpit
 	partNames = RO.FASA.MercuryPodRCS
-	partNames = RO-RFTank-SM
-	partNames = RO-RFTank-Integral
-	partNames = GearFree
 	partNames = parachuteRadial
+	partNames = ROT-RingDecoupler
+	partNames = RO-RFTank-Integral
 	partNames = SSTUHollowRing.Boattail
 	partNames = KzProcFairingSide1
 	partNames = ROE-XLR25
 	partNames = RO-B9ProcAMWing-Supersonic
+	partNames = RCSBlock.138
 	partNames = RO-B9ProcWing-Supersonic
 	partNames = RO-B9ProcCS-Supersonic
+	partNames = GearFree
 }

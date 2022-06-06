@@ -1,0 +1,29 @@
+craftName = EarthWeatherSat-3
+cachedCraftData
+{
+	origChecksum = 7b7dac92be9386a9b2d9b0b04f570f63
+	cacheVersion = 3
+	name = EarthWeatherSat-3
+	kspVersion = 1.12.3
+	stagesCount = 5
+	cost = 6051.81836
+	partCount = 44
+	mass = 56.9193001
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = RO-RFTank-SM
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = parachuteRadial
+}

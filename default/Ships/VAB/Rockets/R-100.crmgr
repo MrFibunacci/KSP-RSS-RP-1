@@ -1,18 +1,18 @@
 craftName = R-100
 cachedCraftData
 {
-	origChecksum = 70d040a664cc33563a883782b43c448b
+	origChecksum = 2583cd2b3d4ec7d750b8e2087104e7ae
 	cacheVersion = 3
 	name = R-100
-	kspVersion = 1.10.1
+	kspVersion = 1.12.3
 	stagesCount = 6
-	cost = 13493.1455
+	cost = 6493.36572
 	partCount = 20
-	mass = 50.1666489
+	mass = 50.0748253
 	description = 
 	crewCapacity = 0
-	partNames = RSBRibbedBase
 	partNames = RO-RFTank-BalloonNew
+	partNames = RSBRibbedBase
 	partNames = KzProcFairingSide1
 	partNames = proceduralAvionics
 	partNames = ROT-GenericTank-Separate

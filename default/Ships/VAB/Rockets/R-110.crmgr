@@ -1,14 +1,14 @@
 craftName = R-110
 cachedCraftData
 {
-	origChecksum = 937f5280272ac20230463ffceb069e14
+	origChecksum = 7653c3e57d194fecc13cc4906ef6ebd5
 	cacheVersion = 3
 	name = R-110
 	kspVersion = 1.12.3
-	stagesCount = 5
-	cost = 18108.1094
-	partCount = 34
-	mass = 60.5962563
+	stagesCount = 4
+	cost = 3704.42334
+	partCount = 36
+	mass = 60.5717735
 	description = 
 	crewCapacity = 0
 	partNames = RO-RFTank-BalloonNew
@@ -23,4 +23,5 @@ cachedCraftData
 	partNames = ROE-RD108
 	partNames = ROE-MediumLC
 	partNames = launchClamp1
+	partNames = parachuteRadial
 }

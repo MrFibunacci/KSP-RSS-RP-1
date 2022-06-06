@@ -2,9 +2,9 @@ ship = J-1
 version = 1.12.3
 description = 
 type = SPH
-size = 7.49395275,3.48853302,9.18060112
+size = 7.4939537,3.53395844,8.68013763
 steamPublishedFileId = 0
-persistentId = 1600419481
+persistentId = 1416841563
 rot = 0,0,0,0
 missionFlag = Squad/Flags/capsule
 vesselType = Debris
@@ -17,12 +17,12 @@ PART
 	part = RO-X1Cockpit_4292743114
 	partName = Part
 	persistentId = 2592322041
-	pos = -0.254521191,5.37499762,-0.253571153
+	pos = 0,5.38131905,0
 	attPos = 0,0,0
-	attPos0 = -0.254521191,5.37499762,-0.253571153
+	attPos0 = 0,0,0
 	rot = 0.707106829,0,0,0.707106829
 	attRot = 0,0,0,1
-	attRot0 = 0.707106769,0,0,0.707106769
+	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
@@ -754,7 +754,6 @@ PART
 				minifiedGUI = False
 				selectedSlot = 0
 				selectedMemorySlotType = 0
-				vesselSaveName = J-1
 				activeSavepoint = -1
 				unlockParts = 
 				unlockTechs = 
@@ -962,17 +961,17 @@ PART
 			}
 			MechJebModuleFlightRecorder
 			{
-				markUT = 207515727.5376102
-				deltaVExpended = 6023.68708007035
-				dragLosses = 5461.7501149309173
-				gravityLosses = -457.23702170875237
-				steeringLosses = 5039.5777165398149
-				markLAN = 65.620930542897881
-				markLatitude = 28.55352502810128
-				markLongitude = -80.673819922981664
-				markAltitude = 21.36640415173024
+				markUT = 0
+				deltaVExpended = 0
+				dragLosses = 0
+				gravityLosses = 0
+				steeringLosses = 0
+				markLAN = 0
+				markLatitude = 0
+				markLongitude = 0
+				markAltitude = 0
 				markBodyIndex = 1
-				maxDragGees = 2.3904325139717275
+				maxDragGees = 0
 				unlockParts = 
 				unlockTechs = 
 			}
@@ -1235,9 +1234,9 @@ PART
 		remainingSampleMass = 0
 		privateHdId = 0
 		firstStart = True
-		prodFactor = 1
+		prodFactor = 0
 		expState = Running
-		status = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1554,7 +1553,7 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 6909.9219785934411
+		amount = 7159.2667608307502
 		maxAmount = 7200
 		flowState = True
 		isTweakable = True
@@ -1565,7 +1564,7 @@ PART
 	RESOURCE
 	{
 		name = Oxygen
-		amount = 40.831992998357535
+		amount = 46
 		maxAmount = 46
 		flowState = True
 		isTweakable = True
@@ -1623,7 +1622,7 @@ PART
 	part = RO-RFTank-Integral_4292736116
 	partName = Part
 	persistentId = 2221435696
-	pos = -0.254521191,5.37499762,-2.75357199
+	pos = 0,5.38131905,-2.50000525
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707106829,0,0,0.707106829
@@ -1651,8 +1650,8 @@ PART
 	link = RO-B9ProcWing-Supersonic_4292670646
 	link = proceduralNoseCone_4292644484
 	link = GearSmall_4291831436
-	link = RO-J57P8_4289715530
-	link = RO-J57P8_4289713196
+	link = RO-R11F_4286839884
+	link = RO-R11F_4286834916
 	attN = top,RO-X1Cockpit_4292743114_0|2.5|0_0|1|0_0|2.5|0_0|1|0
 	attN = bottom,proceduralNoseCone_4292644484_0|-2.5|0_0|-1|0_0|-2.5|0_0|-1|0
 	EVENTS
@@ -2055,7 +2054,7 @@ PART
 	part = LRadialAirIntake_4292691278
 	partName = Part
 	persistentId = 112076215
-	pos = -0.89844209,5.37499762,-0.82034415
+	pos = -0.643920898,5.38131905,-0.566775143
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -2264,7 +2263,7 @@ PART
 	part = LRadialAirIntake_4292690084
 	partName = Part
 	persistentId = 958614853
-	pos = 0.389399707,5.37499762,-0.82034415
+	pos = 0.643920898,5.38131905,-0.566775143
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -2473,7 +2472,7 @@ PART
 	part = RO-B9ProcAMWing-Early_4292672860
 	partName = Part
 	persistentId = 665839748
-	pos = -0.254521191,5.99541998,-4.91018867
+	pos = 0,6.00174141,-4.65662479
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -2792,10 +2791,10 @@ PART
 	part = RO-B9ProcWing-Supersonic_4292672104
 	partName = Part
 	persistentId = 3899310618
-	pos = -0.854496777,5.37499762,-2.24698019
+	pos = -0.599975586,5.38131905,-1.99341333
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 4.21468442E-08,0.707106531,0.707107127,3.01980663E-14
+	rot = 4.21468442E-08,0.707106531,0.707107127,3.19744231E-14
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -3106,7 +3105,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4292667922
 	partName = Part
 	persistentId = 3572857713
-	pos = -1.74402308,5.37499762,-4.42788887
+	pos = -1.48950195,5.38131905,-4.17432499
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707104504,-0.0019114645,0.0017400739,0.707104385
@@ -3409,7 +3408,7 @@ PART
 	part = GearSmall_4292655110
 	partName = Part
 	persistentId = 2715669041
-	pos = -0.977421582,5.46348333,-3.64700508
+	pos = -0.722900391,5.46980476,-3.3934412
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 4.47034836E-07,1.78813963E-07,-2.13162821E-14,1.00000012
@@ -3721,7 +3720,7 @@ PART
 		antiRoll = 0
 		label = 
 		persistentState = DEPLOYED
-		persistentData = 0,0
+		persistentData = 0,0.1498483
 		grounded = False
 		initializedEditor = True
 		stagingEnabled = True
@@ -3929,10 +3928,10 @@ PART
 	part = RO-B9ProcCS-Supersonic_4292670040
 	partName = Part
 	persistentId = 3938753064
-	pos = -3.24548793,5.37499762,-4.41177559
+	pos = -2.9909668,5.38131905,-4.15821171
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 1.12380194E-08,0.707107008,0.70710665,-3.09088009E-08
+	rot = 1.12380212E-08,0.707107008,0.70710665,-3.09088009E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -4232,7 +4231,7 @@ PART
 	part = RO-B9ProcWing-Supersonic_4292670646
 	partName = Part
 	persistentId = 1409392017
-	pos = 0.345454395,5.37499762,-2.24698019
+	pos = 0.599975586,5.38131905,-1.99341333
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.707107067,-3.09086445E-08,-7.30554888E-08,-0.70710659
@@ -4546,7 +4545,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4292663648
 	partName = Part
 	persistentId = 3986725538
-	pos = 1.23498082,5.37499762,-4.42788887
+	pos = 1.48950195,5.38131905,-4.17432499
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.707104445,0.00191146485,-0.00174007425,0.707104445
@@ -4849,7 +4848,7 @@ PART
 	part = GearSmall_4292655798
 	partName = Part
 	persistentId = 3608242605
-	pos = 0.4683792,5.46348333,-3.64700508
+	pos = 0.722900391,5.46980476,-3.3934412
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 4.47034836E-07,-1.78813934E-07,0,1.00000012
@@ -5173,7 +5172,7 @@ PART
 		antiRoll = 0
 		label = 
 		persistentState = DEPLOYED
-		persistentData = 0,0
+		persistentData = 0,0.06792806
 		grounded = False
 		initializedEditor = True
 		stagingEnabled = True
@@ -5381,7 +5380,7 @@ PART
 	part = RO-B9ProcCS-Supersonic_4260729598
 	partName = Part
 	persistentId = 667026609
-	pos = 2.73644567,5.37499762,-4.41177559
+	pos = 2.9909668,5.38131905,-4.15821171
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -1.12380238E-08,0.707106948,0.707106709,3.09088151E-08
@@ -5684,7 +5683,7 @@ PART
 	part = proceduralNoseCone_4292644484
 	partName = Part
 	persistentId = 1394313661
-	pos = -0.254521191,5.37499762,-5.56607246
+	pos = 0,5.38131905,-5.31250858
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-0.707106829,0.707106829,0
@@ -5953,7 +5952,7 @@ PART
 	part = RC.radial_4288449684
 	partName = Part
 	persistentId = 795795212
-	pos = -0.254521191,5.78216314,-5.64724922
+	pos = 0,5.78848505,-5.39368534
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -2.24077645E-08,-0.383994401,0.923335493,5.38807079E-08
@@ -6105,7 +6104,7 @@ PART
 			modelID = 0
 			typeID = 0
 			lastTypeID = 0
-			position = 6.41386544E-09,15.462122,-5.44832325
+			position = 6.41386588E-09,5.84344101,-5.4483304
 			isPressure = False
 			calcSelect = True
 			getMass = False
@@ -6225,7 +6224,7 @@ PART
 	part = GearSmall_4291831436
 	partName = Part
 	persistentId = 2210784130
-	pos = -0.254521191,4.86620092,-0.313019931
+	pos = 0,4.87252235,-0.0594502091
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -2.08616257E-07,6.66133815E-16,5.16277421E-09,-1.00000012
@@ -6536,7 +6535,7 @@ PART
 		antiRoll = 0
 		label = 
 		persistentState = DEPLOYED
-		persistentData = 0,0
+		persistentData = 0,0.09967393
 		grounded = False
 		initializedEditor = True
 		stagingEnabled = True
@@ -6595,7 +6594,7 @@ PART
 		invertSteering = False
 		steeringLimit = 1
 		steeringLimitHigh = 1
-		steeringResponse = 0.100000001
+		steeringResponse = 0.00999999978
 		steeringBias = 0
 		stagingEnabled = True
 		EVENTS
@@ -6741,15 +6740,15 @@ PART
 }
 PART
 {
-	part = RO-J57P8_4289715530
+	part = RO-R11F_4286839884
 	partName = Part
-	persistentId = 2068342515
-	pos = -0.874790967,5.37499762,-5.41372871
-	attPos = 5.96046448E-08,-0.400001049,0
-	attPos0 = -0.620280027,-2.26012301,-2.38418579E-07
-	rot = 0.707106888,-4.21468549E-08,4.21468549E-08,0.707106769
-	attRot = 0.49999994,0.49999994,0.49999994,0.49999994
-	attRot0 = 5.96046448E-08,0,5.96046519E-08,1
+	persistentId = 2617030524
+	pos = -0.800000012,5.38131905,-4.70000792
+	attPos = -0.178587496,0.0457735062,4.76837158E-07
+	attPos0 = -0.621412516,-2.24577498,-2.38418579E-07
+	rot = -0.707106888,-5.96046448E-08,-5.96046448E-08,-0.707106769
+	attRot = -0.49999994,-0.49999994,-0.49999994,-0.49999994
+	attRot0 = -5.96046448E-08,-8.42936956E-08,0,-1
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
@@ -6765,9 +6764,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = RO-J57P8_4289713196
-	srfN = srfAttach,RO-RFTank-Integral_4292736116,collisionMesh,0|0|0,0|1|0,0|0|0
-	attN = top,Null_0_0|0|0_0|1|0_0|0|0_0|1|0
+	sym = RO-R11F_4286834916
+	srfN = srfAttach,RO-RFTank-Integral_4292736116,collisionMesh,0|0|0,0|0.720000029|0,0|0|0
+	attN = top,Null_0_0|0|0_0|0.720000029|0_0|0|0_0|0.720000029|0
 	EVENTS
 	{
 	}
@@ -6819,7 +6818,7 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = Abort
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
@@ -6866,7 +6865,7 @@ PART
 	{
 		name = ModuleAJEJetAnimateNozzleArea
 		isEnabled = True
-		animationState = 1.26116862E-44
+		animationState = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6882,7 +6881,7 @@ PART
 	{
 		name = ModuleAJEJetAnimateAfterburner
 		isEnabled = True
-		animationState = 5.05115047E-11
+		animationState = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6930,7 +6929,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		MM_DYNAMIC = true
-		parent_vessel = 00000000-0000-0000-0000-000000000000
+		parent_vessel = 0
 		EVENTS
 		{
 		}
@@ -7050,15 +7049,15 @@ PART
 }
 PART
 {
-	part = RO-J57P8_4289713196
+	part = RO-R11F_4286834916
 	partName = Part
-	persistentId = 4045278811
-	pos = 0.365748584,5.37499762,-5.41372871
-	attPos = 0,-0.400002003,0
-	attPos0 = 0.620280027,-2.26012301,-2.38418579E-07
-	rot = 0.707106948,4.21468478E-08,-4.21468478E-08,0.707106709
-	attRot = 0,0,0,1
-	attRot0 = 8.94069672E-08,0,-5.96046341E-08,1
+	persistentId = 4084607325
+	pos = 0.800000012,5.38131905,-4.70000887
+	attPos = 0.178587496,0.0457725525,4.76837158E-07
+	attPos0 = 0.621412516,-2.24577498,-2.38418579E-07
+	rot = 0.707106948,-5.96046341E-08,-5.96046412E-08,0.707106709
+	attRot = -0.49999994,-0.49999994,-0.49999994,-0.49999994
+	attRot0 = 8.94069672E-08,-8.42936743E-08,0,1
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
@@ -7074,9 +7073,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = RO-J57P8_4289715530
-	srfN = srfAttach,RO-RFTank-Integral_4292736116,collisionMesh,0|0|0,0|1|0,0|0|0
-	attN = top,Null_0_0|0|0_0|1|0_0|0|0_0|1|0
+	sym = RO-R11F_4286839884
+	srfN = srfAttach,RO-RFTank-Integral_4292736116,collisionMesh,0|0|0,0|0.720000029|0,0|0|0
+	attN = top,Null_0_0|0|0_0|0.720000029|0_0|0|0_0|0.720000029|0
 	EVENTS
 	{
 	}
@@ -7128,7 +7127,7 @@ PART
 			}
 			ShutdownAction
 			{
-				actionGroup = Abort
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActivateAction
@@ -7167,7 +7166,7 @@ PART
 	{
 		name = ModuleAJEJetAnimateNozzleArea
 		isEnabled = True
-		animationState = 1.26116862E-44
+		animationState = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7183,7 +7182,7 @@ PART
 	{
 		name = ModuleAJEJetAnimateAfterburner
 		isEnabled = True
-		animationState = 5.05115047E-11
+		animationState = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7231,7 +7230,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		MM_DYNAMIC = true
-		parent_vessel = 00000000-0000-0000-0000-000000000000
+		parent_vessel = 0
 		EVENTS
 		{
 		}

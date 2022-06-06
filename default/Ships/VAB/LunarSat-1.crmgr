@@ -1,0 +1,22 @@
+craftName = LunarSat-1
+cachedCraftData
+{
+	origChecksum = 66dc0c7ce6a66ea2c7f335dc0ac6d8cd
+	cacheVersion = 3
+	name = LunarSat-1
+	kspVersion = 1.12.3
+	stagesCount = 1
+	cost = 3139.86182
+	partCount = 11
+	mass = 1.25117767
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = RO-EarlyTVCamera
+	partNames = RO-EarlyMagnet
+	partNames = ROT-RingDecoupler
+	partNames = ROE-AJ10Early
+}

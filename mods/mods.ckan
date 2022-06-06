@@ -6,11 +6,11 @@
     "author": [
         "MrFibunacci"
     ],
-    "version": "2022.05.06.07.15.53",
+    "version": "2022.06.06.10.10.00",
     "ksp_version_min": "1.10",
     "ksp_version_max": "1.12.3",
     "license": [
-        "unknown"
+        "Unlicense"
     ],
     "depends": [
         {
@@ -47,7 +47,7 @@
             "name": "ROTanks"
         },
         {
-            "name": "Harmony2"
+            "name": "ROCapsules"
         },
         {
             "name": "KSPBurst"
@@ -62,7 +62,7 @@
             "name": "Scatterer"
         },
         {
-            "name": "Kopernicus"
+            "name": "TweakScale-Redist"
         },
         {
             "name": "ReStock"
@@ -74,7 +74,7 @@
             "name": "PatchManager"
         },
         {
-            "name": "RealismOverhaul"
+            "name": "RP-0"
         },
         {
             "name": "AdvancedJetEngine"
@@ -95,10 +95,10 @@
             "name": "RealChute"
         },
         {
-            "name": "KSPCommunityFixes"
+            "name": "RealFuels"
         },
         {
-            "name": "CommunityResourcePack"
+            "name": "RocketSoundEnhancement"
         },
         {
             "name": "RealHeat"
@@ -134,7 +134,7 @@
             "name": "VenStockRevamp-Core"
         },
         {
-            "name": "RealSolarSystem"
+            "name": "ROEngines"
         },
         {
             "name": "RSSTextures16K"
@@ -149,10 +149,10 @@
             "name": "Kerbalism"
         },
         {
-            "name": "RSSDateTimeFormatter"
+            "name": "ModularLaunchPads"
         },
         {
-            "name": "ROEngines"
+            "name": "RocketSoundEnhancement-Config-Default"
         },
         {
             "name": "DistantObject"
@@ -164,13 +164,13 @@
             "name": "B9PartSwitch"
         },
         {
-            "name": "RealFuels"
+            "name": "EngineLightRelit"
         },
         {
-            "name": "RP-0"
+            "name": "RealismOverhaul"
         },
         {
-            "name": "ROCapsules"
+            "name": "Harmony2"
         },
         {
             "name": "BDAnimationModules"
@@ -191,7 +191,7 @@
             "name": "KSCSwitcher"
         },
         {
-            "name": "AtmosphereAutopilot"
+            "name": "KSPCommunityFixes"
         },
         {
             "name": "ProceduralFairings"
@@ -239,7 +239,7 @@
             "name": "EnvironmentalVisualEnhancements"
         },
         {
-            "name": "ModularLaunchPads"
+            "name": "RSSDateTimeFormatter"
         },
         {
             "name": "Scatterer-sunflare"
@@ -293,7 +293,7 @@
             "name": "EditorTime"
         },
         {
-            "name": "EngineLightRelit"
+            "name": "AtmosphereAutopilot"
         },
         {
             "name": "ScienceSituationInfo"
@@ -431,10 +431,10 @@
             "name": "WaypointManager"
         },
         {
-            "name": "RocketSoundEnhancement"
+            "name": "RealSolarSystem"
         },
         {
-            "name": "RocketSoundEnhancement-Config-Default"
+            "name": "CommunityResourcePack"
         },
         {
             "name": "KerbalEngineerRedux"
@@ -444,10 +444,16 @@
         },
         {
             "name": "SXTContinued"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "FASA"
         }
     ],
     "recommends": [],
     "suggests": [],
     "kind": "metapackage",
-    "release_date": "2022-05-06T21:15:53.1344393+02:00"
+    "release_date": "2022-06-07T00:10:00.2553807+02:00"
 }

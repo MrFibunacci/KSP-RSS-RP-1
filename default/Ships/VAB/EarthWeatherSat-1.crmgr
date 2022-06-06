@@ -1,0 +1,19 @@
+craftName = EarthWeatherSat-1
+cachedCraftData
+{
+	origChecksum = 8d17d8a99c06a15302f8507f9b45d0aa
+	cacheVersion = 3
+	name = EarthWeatherSat-1
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 3219.0271
+	partCount = 8
+	mass = 0.192001268
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = ROT-ServiceModule
+}

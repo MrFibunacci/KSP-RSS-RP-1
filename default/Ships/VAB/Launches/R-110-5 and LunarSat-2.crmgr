@@ -1,0 +1,32 @@
+craftName = R-110-5 and LunarSat-2
+cachedCraftData
+{
+	origChecksum = d0ec6db7ce36aa6e1be381724bcd990d
+	cacheVersion = 3
+	name = R-110-5 and LunarSat-2
+	kspVersion = 1.12.3
+	stagesCount = 6
+	cost = 5559.7207
+	partCount = 48
+	mass = 58.0075798
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = RO-EarlyTVCamera
+	partNames = RO-EarlyMagnet
+	partNames = ROT-RingDecoupler
+	partNames = ROE-AJ10Early
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = parachuteRadial
+}

@@ -1,0 +1,35 @@
+craftName = LunarSat-3
+cachedCraftData
+{
+	origChecksum = bc521a12304afec1af240245aa35ce0f
+	cacheVersion = 3
+	name = LunarSat-3
+	kspVersion = 1.12.3
+	stagesCount = 9
+	cost = 14627.3535
+	partCount = 61
+	mass = 129.208939
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = RO-EarlyTVCamera
+	partNames = RO-EarlyMagnet
+	partNames = ROT-RingDecoupler
+	partNames = ROE-AJ10Early
+	partNames = ROSmallSpinMotor
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = radialDecoupler1-2
+	partNames = ROE-LR87.Single
+	partNames = parachuteRadial
+	partNames = launchClamp1
+}

@@ -1,0 +1,21 @@
+craftName = EarthSat-8
+cachedCraftData
+{
+	origChecksum = 8aa6f92e505c1cfb0869a9a00436606f
+	cacheVersion = 3
+	name = EarthSat-8
+	kspVersion = 1.12.3
+	stagesCount = 3
+	cost = 1241.54541
+	partCount = 13
+	mass = 0.200101927
+	description = 
+	crewCapacity = 0
+	partNames = RP0-SampleReturnCommand
+	partNames = BioCapsule
+	partNames = RO.LEOHeatShield1m
+	partNames = smallRadialDecoupler
+	partNames = ROSmallSpinMotor
+	partNames = ROT-RingDecoupler
+	partNames = RO-RFTank-SM
+}

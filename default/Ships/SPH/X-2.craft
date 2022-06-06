@@ -2,9 +2,9 @@ ship = X-2
 version = 1.12.3
 description = 
 type = SPH
-size = 6.29152489,2.19748402,11.7127285
+size = 6.29152584,2.43717384,11.7127342
 steamPublishedFileId = 0
-persistentId = 3621552177
+persistentId = 2910519050
 rot = 0,0,0,0
 missionFlag = Squad/Flags/hexagon
 vesselType = Debris
@@ -16,10 +16,10 @@ PART
 {
 	part = Mark1Cockpit_4282549986
 	partName = Part
-	persistentId = 4104908892
-	pos = 0.294364333,5.1354537,1.65920782
+	persistentId = 3750576822
+	pos = 0.294422448,5.13545513,1.65920806
 	attPos = 0,0,0
-	attPos0 = 0.294364333,5.1354537,0.919362545
+	attPos0 = 0.294422448,5.13545513,1.65920806
 	rot = 0.707106829,0,0,0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0.707106769,0,0,0.707106769
@@ -35,8 +35,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 9.30000019
-	modMass = 0.00260000001
+	modCost = 309.299988
+	modMass = 0.0146000003
 	modSize = 0,0,0
 	link = RO.FASA.MercuryPodRCS_4277470006
 	link = RO.FASA.MercuryPodRCS_4277468364
@@ -312,7 +312,7 @@ PART
 		isEnabled = True
 		type = ServiceModule
 		utilization = 86
-		mass = 0.931623816
+		mass = 0.943623781
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		volume = 100
@@ -1282,7 +1282,7 @@ PART
 		isEnabled = True
 		hdId = 0
 		effectiveDataCapacity = -1
-		effectiveSampleCapacity = 1
+		effectiveSampleCapacity = 2
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1332,7 +1332,7 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = False
+		isEnabled = True
 		issue = 
 		situationId = 0
 		didPrepare = False
@@ -1341,8 +1341,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1446,8 +1446,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1481,8 +1481,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1508,8 +1508,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = !$None
-		prev_cfg = !$None
+		cfg = !-Mach 2 flight
+		prev_cfg = !-Mach 2 flight
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1786,8 +1786,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4277470006
 	partName = Part
-	persistentId = 1816777273
-	pos = 0.294364333,5.2391243,3.66944671
+	persistentId = 1000657777
+	pos = 0.294422448,5.23912573,3.6694479
 	attPos = 0,0,0
 	attPos0 = 0,2.01022601,-0.103670835
 	rot = 0.263974547,1.99523935E-08,7.29035889E-08,0.964529753
@@ -1994,6 +1994,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -2107,8 +2109,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4277468364
 	partName = Part
-	persistentId = 982059537
-	pos = 0.190693498,5.1354537,3.66944671
+	persistentId = 2038743647
+	pos = 0.190751612,5.13545513,3.6694479
 	attPos = 0,0,0
 	attPos0 = -0.103670835,2.01022601,-2.38418579E-07
 	rot = 0.186658159,0.186658144,0.682025611,0.682025492
@@ -2315,6 +2317,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -2428,8 +2432,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4277468244
 	partName = Part
-	persistentId = 948771369
-	pos = 0.294364333,5.03178263,3.66944671
+	persistentId = 2008863172
+	pos = 0.294422448,5.03178406,3.6694479
 	attPos = 0,0,0
 	attPos0 = 0,2.01022601,0.103670835
 	rot = -3.14910942E-08,0.263974428,0.964529753,-1.15064523E-07
@@ -2636,6 +2640,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -2749,8 +2755,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4277468124
 	partName = Part
-	persistentId = 3967246360
-	pos = 0.398035169,5.1354537,3.66944671
+	persistentId = 2546613590
+	pos = 0.398093283,5.13545513,3.6694479
 	attPos = 0,0,0
 	attPos0 = 0.103670835,2.01022601,-2.38418579E-07
 	rot = -0.186658174,0.186658129,0.682025492,-0.682025552
@@ -2957,6 +2963,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -3070,8 +3078,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4285934570
 	partName = Part
-	persistentId = 3151135227
-	pos = 0.294364333,5.29760265,3.54677582
+	persistentId = 1533343697
+	pos = 0.294422448,5.29760408,3.54677701
 	attPos = 0,0,0
 	attPos0 = 0,1.88756347,-0.162149191
 	rot = 0.196841389,-9.37685485E-09,-4.67046206E-08,0.980435491
@@ -3278,6 +3286,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -3391,8 +3401,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4285933426
 	partName = Part
-	persistentId = 2205220862
-	pos = 0.132215172,5.1354537,3.54677582
+	persistentId = 3327103889
+	pos = 0.132273287,5.13545513,3.54677701
 	attPos = 0,0,0
 	attPos0 = -0.162149161,1.88756347,-2.38418579E-07
 	rot = 0.139187962,0.139187843,0.693272471,0.693272591
@@ -3599,6 +3609,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -3712,8 +3724,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4285933290
 	partName = Part
-	persistentId = 410700670
-	pos = 0.294364333,4.97330427,3.54677582
+	persistentId = 1990584153
+	pos = 0.294422448,4.9733057,3.54677701
 	attPos = 0,0,0
 	attPos0 = 0,1.88756347,0.162149191
 	rot = 7.72644504E-10,0.196841389,0.980435491,3.84842158E-09
@@ -3920,6 +3932,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -4033,8 +4047,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4285933154
 	partName = Part
-	persistentId = 2327532614
-	pos = 0.456513494,5.1354537,3.54677582
+	persistentId = 4153406031
+	pos = 0.456571609,5.13545513,3.54677701
 	attPos = 0,0,0
 	attPos0 = 0.162149161,1.88756347,-2.38418579E-07
 	rot = -0.139188111,0.139187872,0.693272531,-0.693272471
@@ -4241,6 +4255,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -4354,8 +4370,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4285932542
 	partName = Part
-	persistentId = 2330352093
-	pos = 0.294364303,5.34770727,3.41946721
+	persistentId = 2085516875
+	pos = 0.294422418,5.3477087,3.4194684
 	attPos = 0,0,0
 	attPos0 = -2.98023224E-08,1.76025486,-0.212253809
 	rot = 0.150867999,6.8523871E-09,4.48999131E-08,0.98855406
@@ -4562,6 +4578,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -4675,8 +4693,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4285931674
 	partName = Part
-	persistentId = 4105198005
-	pos = 0.0821105689,5.1354537,3.41946721
+	persistentId = 496659048
+	pos = 0.0821686834,5.13545513,3.4194684
 	attPos = 0,0,0
 	attPos0 = -0.212253764,1.76025486,-2.38418579E-07
 	rot = 0.106679827,0.106679738,0.699013233,0.699013233
@@ -4883,6 +4901,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -4996,8 +5016,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4285931532
 	partName = Part
-	persistentId = 2814263107
-	pos = 0.294364393,4.92319965,3.41946721
+	persistentId = 2616911015
+	pos = 0.294422507,4.92320108,3.4194684
 	attPos = 0,0,0
 	attPos0 = 5.96046448E-08,1.76025486,0.212253809
 	rot = -1.34470461E-08,0.150867909,0.988554001,-8.81109656E-08
@@ -5204,6 +5224,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -5317,8 +5339,8 @@ PART
 {
 	part = RO.FASA.MercuryPodRCS_4285931390
 	partName = Part
-	persistentId = 3810505474
-	pos = 0.506618083,5.1354537,3.41946721
+	persistentId = 545156584
+	pos = 0.506676197,5.13545513,3.4194684
 	attPos = 0,0,0
 	attPos0 = 0.212253749,1.76025486,-2.38418579E-07
 	rot = -0.106679797,0.106679797,0.699013233,-0.699013233
@@ -5525,6 +5547,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 1
@@ -5638,8 +5662,8 @@ PART
 {
 	part = parachuteRadial_4285510256
 	partName = Part
-	persistentId = 69060914
-	pos = 0.295591325,5.13474512,1.43917274
+	persistentId = 2874002396
+	pos = 0.295649439,5.13474655,1.43917298
 	attPos = 0,0.153432697,0
 	attPos0 = 0.00122699142,-0.220035106,0.000708609819
 	rot = 0,0,1.00000012,0
@@ -5940,8 +5964,8 @@ PART
 {
 	part = ROT-RingDecoupler_4285505100
 	partName = Part
-	persistentId = 2938851147
-	pos = 0.294364333,5.1354537,1.39561415
+	persistentId = 717336115
+	pos = 0.294422448,5.13545513,1.39561439
 	attPos = 0,0,0
 	attPos0 = 0,-0.26359117,2.98023224E-08
 	rot = 0.707106829,0,0,0.707106829
@@ -6241,8 +6265,8 @@ PART
 {
 	part = RO-RFTank-Integral_4285148630
 	partName = Part
-	persistentId = 608180184
-	pos = 0.294364333,5.1354537,1.20077252
+	persistentId = 1316169889
+	pos = 0.294422448,5.13545513,1.20077264
 	attPos = 0,0,0
 	attPos0 = 0,-0.194841295,2.98023224E-08
 	rot = 0.707106829,0,0,0.707106829
@@ -6665,8 +6689,8 @@ PART
 {
 	part = RO-RFTank-Integral_4282239282
 	partName = Part
-	persistentId = 200051962
-	pos = 0.294364333,5.1354537,-0.949228764
+	persistentId = 2131511543
+	pos = 0.294422448,5.13545513,-0.949229002
 	attPos = 0,0,0
 	attPos0 = 0,-2.14999986,1.78813892E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -6688,11 +6712,12 @@ PART
 	modMass = -0.423585355
 	modSize = 0,0,0
 	link = RO-RFTank-Integral_4281482898
-	link = GearFree_4281560356
 	link = RO-B9ProcWing-Supersonic_4280312086
 	link = RO-B9ProcWing-Supersonic_4280302256
 	link = RO-B9ProcAMWing-Supersonic_4275983778
 	link = RO-B9ProcAMWing-Supersonic_4285162074
+	link = GearFree_4290786672
+	link = GearFree_4290785126
 	attN = top,RO-RFTank-Integral_4285148630_0|2|0_0|1|0_0|2|0_0|1|0
 	attN = bottom,RO-RFTank-Integral_4281482898_0|-2|0_0|-1|0_0|-2|0_0|-1|0
 	EVENTS
@@ -7144,8 +7169,8 @@ PART
 {
 	part = RO-RFTank-Integral_4281482898
 	partName = Part
-	persistentId = 2892976837
-	pos = 0.294364333,5.1354537,-4.94929171
+	persistentId = 4245451546
+	pos = 0.294422448,5.13545513,-4.94929314
 	attPos = 0,0,0
 	attPos0 = 0,-2.37500095,2.3841848E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -7166,7 +7191,6 @@ PART
 	modCost = 2100.18579
 	modMass = -0.521509051
 	modSize = 0,0,0
-	link = GearFree_4281413098
 	link = SSTUHollowRing.Boattail_4281356550
 	link = RO-B9ProcAMWing-Supersonic_4279462180
 	link = RO-B9ProcAMWing-Supersonic_4279433138
@@ -7176,6 +7200,8 @@ PART
 	link = RCSBlock.138_4285472308
 	link = RCSBlock.138_4285469840
 	link = RCSBlock.138_4285468946
+	link = GearFree_4281413098
+	link = GearFree_4290785704
 	attN = top,RO-RFTank-Integral_4282239282_0|2|0_0|1|0_0|2|0_0|1|0
 	attN = bottom,SSTUHollowRing.Boattail_4281356550_0|-2|0_0|-1|0_0|-2|0_0|-1|0
 	EVENTS
@@ -7625,318 +7651,10 @@ PART
 }
 PART
 {
-	part = GearFree_4281413098
-	partName = Part
-	persistentId = 201179637
-	pos = 0.294364333,4.85711575,-5.29539728
-	attPos = 0,-1.90734863E-06,-0.33061111
-	attPos0 = 0,-0.346103668,0.608947992
-	rot = 0.0284579694,2.71952461E-11,9.55246326E-10,0.999595046
-	attRot = 0,0,0,1
-	attRot0 = -0.686697602,6.94690971E-10,6.56231069E-10,0.726943254
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,RO-RFTank-Integral_4281482898,collisionMesh,0|0|0,0|1|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelBase
-		isEnabled = True
-		frictionControl = 1
-		showControls = True
-		springRating = 0.5
-		dampRatio = 0.649999976
-		wheelGroup = 0
-		scale = 1
-		antiRoll = 0
-		label = 
-		persistentState = DEPLOYED
-		persistentData = 0,0
-		grounded = True
-		initializedEditor = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelRotation
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelSuspension
-		isEnabled = True
-		lockSuspension = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			suspensionLockAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelSteering
-		isEnabled = True
-		steeringLocked = False
-		invertSteering = False
-		steeringLimit = 1
-		steeringLimitHigh = 1
-		steeringResponse = 0
-		steeringBias = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			steeringLockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			steeringInvertAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelBrakes
-		isEnabled = True
-		brakeLimit = 100
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			brakesAction
-			{
-				actionGroup = Brakes
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelDamage
-		isEnabled = True
-		wheelWear = 0
-		motorWear = 0
-		suspensionWear = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelDustEffects
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = RSE_Wheels
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ShipEffectsCollisions
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = SSTUHollowRing.Boattail_4281356550
 	partName = Part
-	persistentId = 2403724323
-	pos = 0.294364333,5.1354537,-6.95005655
+	persistentId = 1325223620
+	pos = 0.294422448,5.13545513,-6.95005989
 	attPos = 0,0,0
 	attPos0 = 0,-2.00000286,0
 	rot = 0,-0.707106829,0.707106829,0
@@ -8189,11 +7907,11 @@ PART
 {
 	part = KzProcFairingSide1_4281356386
 	partName = Part
-	persistentId = 3254577547
-	pos = 0.714364409,5.1354537,-6.47273874
+	persistentId = 1346469730
+	pos = 0.714422524,5.13545513,-6.47274303
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -0.707106769,-4.78988511E-08,4.78988511E-08,0.707106888
+	rot = -0.707106769,-4.78987587E-08,4.78987516E-08,0.707106888
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -8484,8 +8202,8 @@ PART
 {
 	part = KzProcFairingSide1_4281355654
 	partName = Part
-	persistentId = 1273413198
-	pos = 0.294364363,4.71545362,-6.47273874
+	persistentId = 2370009486
+	pos = 0.294422477,4.71545506,-6.47274303
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.50000006,0.50000006,-0.50000006,0.50000006
@@ -8779,11 +8497,11 @@ PART
 {
 	part = KzProcFairingSide1_4281354922
 	partName = Part
-	persistentId = 1282026354
-	pos = -0.125635773,5.1354537,-6.47273874
+	persistentId = 2396314266
+	pos = -0.125577658,5.13545513,-6.47274303
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 4.7898844E-08,0.707106888,-0.707106769,-4.78988511E-08
+	rot = 4.78987516E-08,0.707106888,-0.707106769,-4.78987587E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -9074,8 +8792,8 @@ PART
 {
 	part = KzProcFairingSide1_4281354190
 	partName = Part
-	persistentId = 2997621671
-	pos = 0.294364333,5.55545378,-6.47273874
+	persistentId = 3955174318
+	pos = 0.294422448,5.55545521,-6.47274303
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.50000006,-0.50000006,0.50000006,0.50000006
@@ -9369,8 +9087,8 @@ PART
 {
 	part = ROE-XLR25_4281353386
 	partName = Part
-	persistentId = 1796346486
-	pos = 0.294364333,5.1354537,-6.99644518
+	persistentId = 2310278890
+	pos = 0.294422448,5.13545513,-6.99645042
 	attPos = 0,0,0
 	attPos0 = 0,0.0453624167,0
 	rot = -0.697477877,0,0,-0.716606438
@@ -9584,6 +9302,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = XLR25-CW-1
 		configurationDisplay = XLR25-CW-1
 		techLevel = -1
@@ -9668,7 +9388,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 292251052.15609002
+		missionStartTime = 315148069.12015277
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9836,8 +9556,8 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4279462180
 	partName = Part
-	persistentId = 2040480346
-	pos = -0.153340161,5.39393759,-6.3450284
+	persistentId = 1166309820
+	pos = -0.153282046,5.39393902,-6.34502983
 	attPos = 0,0,0
 	attPos0 = -0.447704494,-1.39572954,-0.258482337
 	rot = -0.377097547,-0.603546023,-0.563935757,-0.418934643
@@ -10156,8 +9876,8 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4279433138
 	partName = Part
-	persistentId = 2394814585
-	pos = 0.742068827,5.39393759,-6.34503031
+	persistentId = 2002186978
+	pos = 0.742126942,5.39393902,-6.34503174
 	attPos = 0,0,0
 	attPos0 = 0.447704494,-1.39572954,-0.258482337
 	rot = -0.563935757,-0.418934643,-0.377097547,-0.603545904
@@ -10476,8 +10196,8 @@ PART
 {
 	part = RCSBlock.138_4285815592
 	partName = Part
-	persistentId = 2450820918
-	pos = 0.728551269,5.1354537,-6.81268835
+	persistentId = 1476393133
+	pos = 0.728609383,5.13545513,-6.81269169
 	attPos = -0.000532388687,0.448404789,1.33634842E-07
 	attPos0 = 0.434186935,-1.86339092,-3.41060513E-13
 	rot = -0.11339879,5.96046448E-08,-0.993549645,2.23517418E-08
@@ -10668,6 +10388,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 0
@@ -10716,6 +10438,53 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = rowaterfallMainPlumeSwitch
+		currentSubtype = monoprop
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleShowInfo
 		isEnabled = True
 		stagingEnabled = True
@@ -10734,8 +10503,8 @@ PART
 {
 	part = RCSBlock.138_4285475528
 	partName = Part
-	persistentId = 892647164
-	pos = -0.139822602,5.13545465,-6.8126893
+	persistentId = 3558729072
+	pos = -0.139764488,5.13545609,-6.81269264
 	attPos = -0.000532388687,0.448404789,1.33634842E-07
 	attPos0 = -0.434186935,-1.86339188,-9.53674203E-07
 	rot = 0,-0.11339879,4.47034836E-08,0.993549645
@@ -10926,6 +10695,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 0
@@ -10974,6 +10745,53 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = rowaterfallMainPlumeSwitch
+		currentSubtype = monoprop
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleShowInfo
 		isEnabled = True
 		stagingEnabled = True
@@ -10992,8 +10810,8 @@ PART
 {
 	part = RCSBlock.138_4285474108
 	partName = Part
-	persistentId = 1042046647
-	pos = 0.769991696,5.1354537,-6.61299658
+	persistentId = 3947290344
+	pos = 0.77004981,5.13545513,-6.61299992
 	attPos = -0.000532388687,0.448404789,1.33634842E-07
 	attPos0 = 0.475627363,-1.66369915,-3.41060513E-13
 	rot = -0.11339879,5.96046448E-08,-0.993549645,2.23517418E-08
@@ -11184,6 +11002,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 0
@@ -11232,6 +11052,53 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = rowaterfallMainPlumeSwitch
+		currentSubtype = monoprop
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleShowInfo
 		isEnabled = True
 		stagingEnabled = True
@@ -11250,8 +11117,8 @@ PART
 {
 	part = RCSBlock.138_4285472308
 	partName = Part
-	persistentId = 1232579783
-	pos = -0.18126303,5.13545465,-6.61299753
+	persistentId = 121907678
+	pos = -0.181204915,5.13545609,-6.61300087
 	attPos = -0.000532388687,0.448404789,1.33634842E-07
 	attPos0 = -0.475627363,-1.6637001,-9.53674203E-07
 	rot = 0,-0.11339879,4.47034836E-08,0.993549645
@@ -11442,6 +11309,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 0
@@ -11490,6 +11359,53 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = rowaterfallMainPlumeSwitch
+		currentSubtype = monoprop
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleShowInfo
 		isEnabled = True
 		stagingEnabled = True
@@ -11508,11 +11424,11 @@ PART
 {
 	part = RCSBlock.138_4285469840
 	partName = Part
-	persistentId = 3769437050
-	pos = 0.793737113,5.1354537,-6.42117643
+	persistentId = 238112424
+	pos = 0.793795228,5.13545513,-6.42117977
 	attPos = -0.000532388687,0.448404789,1.33634842E-07
 	attPos0 = 0.49937278,-1.47187901,-3.41060513E-13
-	rot = -0.0490756631,0,-0.998795152,-2.60770321E-08
+	rot = -0.0490756631,0,-0.998795211,-2.60770321E-08
 	attRot = 0.707106888,-5.49785287E-11,4.43061907E-11,-0.707106769
 	attRot0 = -0.0347017236,-0.70625478,-0.70625478,-0.0347017571
 	mir = 1,1,1
@@ -11700,6 +11616,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 0
@@ -11748,6 +11666,53 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = rowaterfallMainPlumeSwitch
+		currentSubtype = monoprop
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleShowInfo
 		isEnabled = True
 		stagingEnabled = True
@@ -11766,11 +11731,11 @@ PART
 {
 	part = RCSBlock.138_4285468946
 	partName = Part
-	persistentId = 2780406421
-	pos = -0.205008447,5.1354537,-6.42117643
+	persistentId = 2281836052
+	pos = -0.204950333,5.13545513,-6.42117977
 	attPos = -0.000532388687,0.448404789,1.33634842E-07
 	attPos0 = -0.49937278,-1.47187901,-3.41060513E-13
-	rot = -0.998795211,-2.79396772E-08,-0.0490757078,0
+	rot = -0.998795152,-2.60770321E-08,-0.0490757041,0
 	attRot = 0.707106888,-5.49785287E-11,4.43061907E-11,-0.707106769
 	attRot0 = -0.70625484,-0.0347017832,-0.0347017534,-0.706254721
 	mir = 1,1,1
@@ -11958,6 +11923,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
+		activePatchName = 
+		dynamicPatchApplied = False
 		configuration = NitrousOxide
 		configurationDisplay = NitrousOxide
 		techLevel = 0
@@ -12006,91 +11973,7 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = GearFree_4281560356
-	partName = Part
-	persistentId = 3097373213
-	pos = 0.294364333,4.84450769,0.850784242
-	attPos = 0,0.0992811918,-0.34718892
-	attPos0 = 0,1.70071626,0.638133943
-	rot = -0.0173995197,2.36345665E-12,-1.35813291E-10,0.999848723
-	attRot = 0,0,0,1
-	attRot0 = -0.719303071,-9.43632811E-11,-9.77057046E-11,0.694696486
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,RO-RFTank-Integral_4282239282,collisionMesh,0|0|0,0|1|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
+		name = ModuleWaterfallFX
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -12105,9 +11988,11 @@ PART
 	}
 	MODULE
 	{
-		name = FARAeroPartModule
+		name = ModuleB9PartSwitch
 		isEnabled = True
 		stagingEnabled = True
+		moduleID = rowaterfallMainPlumeSwitch
+		currentSubtype = monoprop
 		EVENTS
 		{
 		}
@@ -12120,187 +12005,8 @@ PART
 	}
 	MODULE
 	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelBase
-		isEnabled = True
-		frictionControl = 1
-		showControls = True
-		springRating = 0.5
-		dampRatio = 0.649999976
-		wheelGroup = 0
-		scale = 1
-		antiRoll = 0
-		label = 
-		persistentState = DEPLOYED
-		persistentData = 0,0
-		grounded = True
-		initializedEditor = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelRotation
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelSuspension
-		isEnabled = True
-		lockSuspension = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			suspensionLockAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelSteering
-		isEnabled = True
-		steeringLocked = False
-		invertSteering = False
-		steeringLimit = 1
-		steeringLimitHigh = 1
-		steeringResponse = 0
-		steeringBias = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			steeringLockAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			steeringInvertAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelBrakes
-		isEnabled = True
-		brakeLimit = 100
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			brakesAction
-			{
-				actionGroup = Brakes
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelDamage
-		isEnabled = True
-		wheelWear = 0
-		motorWear = 0
-		suspensionWear = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KSPWheelDustEffects
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = RSE_Wheels
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ShipEffectsCollisions
-		isEnabled = True
+		name = ModuleB9PartInfo
+		isEnabled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12332,8 +12038,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4280312086
 	partName = Part
-	persistentId = 571340138
-	pos = -0.305635691,5.1354537,-2.45274687
+	persistentId = 1538379003
+	pos = -0.305577576,5.13545513,-2.45274758
 	attPos = 0.0939474702,-0.0820940733,-1.42108547E-14
 	attPos0 = -0.693947494,-1.42141402,2.3841848E-07
 	rot = -0.000419834134,0.70710665,0.707106769,0.00041985503
@@ -12720,8 +12426,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4280145400
 	partName = Part
-	persistentId = 1206744862
-	pos = -1.26790226,5.13545418,-3.77364731
+	persistentId = 3600648358
+	pos = -1.2678442,5.13545561,-3.77364802
 	attPos = 0,0,0
 	attPos0 = 0.96383363,-1.31975532,2.12768498E-07
 	rot = -0.000419855874,0.70710659,0.707106829,0.000419854943
@@ -13107,11 +12813,11 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4279763348
 	partName = Part
-	persistentId = 1640782968
-	pos = -2.17798853,5.13545561,-5.63087511
+	persistentId = 37850440
+	pos = -2.17793036,5.13545704,-5.63087654
 	attPos = 0,0,0
 	attPos0 = 0.912290454,-1.85611677,4.80054609E-07
-	rot = 0.707102358,0.00258119311,-0.00250619277,0.707102239
+	rot = 0.707102358,0.00258119265,-0.00250619231,0.707102239
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 0.00419109501,-0.999991298,-2.80298842E-08,5.30319958E-05
 	mir = 1,1,1
@@ -13410,11 +13116,11 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4279583344
 	partName = Part
-	persistentId = 2052515976
-	pos = -0.837515712,5.13545513,-5.64251709
+	persistentId = 2571319065
+	pos = -0.837457597,5.13545656,-5.642519
 	attPos = 0,0,0
 	attPos0 = 0.535666943,-3.18910074,5.5771352E-07
-	rot = -0.00748873549,-0.707067132,-0.707067132,0.00750939036
+	rot = -0.00748873455,-0.707067072,-0.707067072,0.00750938943
 	attRot = 0,-0.707106709,0,0.707106709
 	attRot0 = -2.12845759E-08,-1.46177053E-05,-0.01119899,-0.999937296
 	mir = 1,1,1
@@ -13713,8 +13419,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4280302256
 	partName = Part
-	persistentId = 2109013486
-	pos = 0.894364357,5.1354537,-2.4527483
+	persistentId = 3880158246
+	pos = 0.894422472,5.13545513,-2.45274901
 	attPos = -0.0939474702,-0.0820955038,-1.42108547E-14
 	attPos0 = 0.693947494,-1.42141402,2.3841848E-07
 	rot = -0.707107008,-0.00041988556,0.000419803138,-0.707106531
@@ -14101,8 +13807,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4280135636
 	partName = Part
-	persistentId = 363209480
-	pos = 1.85663092,5.13545418,-3.77364826
+	persistentId = 2252190485
+	pos = 1.85668898,5.13545561,-3.77364898
 	attPos = 0,0,0
 	attPos0 = 0.963834107,-1.31975532,3.42927535E-07
 	rot = -0.707107067,-0.000419885648,0.000419824995,-0.707106471
@@ -14488,8 +14194,8 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4279744052
 	partName = Part
-	persistentId = 586547193
-	pos = 2.76671743,5.13545561,-5.63087797
+	persistentId = 2319624976
+	pos = 2.76677537,5.13545704,-5.6308794
 	attPos = 0,0,0
 	attPos0 = 0.912290335,-1.85611582,1.89055504E-06
 	rot = 0.707102478,-0.00258119754,0.00250619627,0.707102239
@@ -14791,11 +14497,11 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4279530746
 	partName = Part
-	persistentId = 4009212508
-	pos = 1.42624438,5.13545513,-5.64251995
+	persistentId = 1107472324
+	pos = 1.42630243,5.13545656,-5.64252186
 	attPos = 0,0,0
 	attPos0 = 0.535667121,-3.18909979,2.91032893E-06
-	rot = -0.00748873781,0.707067251,0.707067013,0.00750939082
+	rot = -0.00748873828,0.707067311,0.707067072,0.00750939129
 	attRot = 0,-0.707106709,0,0.707106709
 	attRot0 = 0.0111989882,-0.999937296,5.87957118E-07,-1.46552793E-05
 	mir = 1,1,1
@@ -15094,8 +14800,8 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4275983778
 	partName = Part
-	persistentId = 2087524620
-	pos = -0.367265522,5.1354537,0.00980699062
+	persistentId = 3576202197
+	pos = -0.367207408,5.13545513,0.0098067522
 	attPos = 0,-0.818341732,8.94069316E-08
 	attPos0 = -0.661629856,0.959035397,0
 	rot = -0.0116756912,0.725532532,0.687857866,-0.0178299155
@@ -15414,8 +15120,8 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4285162074
 	partName = Part
-	persistentId = 3851379757
-	pos = 0.955994189,5.1354537,0.00980687141
+	persistentId = 1088483125
+	pos = 0.956052303,5.13545513,0.009806633
 	attPos = 0,-0.818341732,8.94069316E-08
 	attPos0 = 0.661629856,0.959035277,0
 	rot = -0.687857807,0.0178298801,0.0116756577,-0.725532591
@@ -15687,6 +15393,1242 @@ PART
 	MODULE
 	{
 		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ShipEffectsCollisions
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = GearFree_4281413098
+	partName = Part
+	persistentId = 2282350684
+	pos = 0.0251581073,4.66907501,-6.17452335
+	attPos = 0,-1.90734863E-06,-0.33061111
+	attPos0 = -0.26926434,-1.22523022,0.466380119
+	rot = 0.0593953431,-0.0159148574,-0.258329302,0.964098096
+	attRot = 0,0,0,1
+	attRot0 = -0.639721394,-0.193919897,-0.171412885,0.72371912
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = GearFree_4290785704
+	srfN = srfAttach,RO-RFTank-Integral_4281482898,collisionMesh,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelBase
+		isEnabled = True
+		frictionControl = 1
+		showControls = True
+		springRating = 0.5
+		dampRatio = 0.649999976
+		wheelGroup = 0
+		scale = 1
+		antiRoll = 0
+		label = 
+		persistentState = DEPLOYED
+		persistentData = 0,0
+		grounded = True
+		initializedEditor = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelRotation
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelSuspension
+		isEnabled = True
+		lockSuspension = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			suspensionLockAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelSteering
+		isEnabled = True
+		steeringLocked = False
+		invertSteering = False
+		steeringLimit = 1
+		steeringLimitHigh = 1
+		steeringResponse = 0
+		steeringBias = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			steeringLockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			steeringInvertAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelBrakes
+		isEnabled = True
+		brakeLimit = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			brakesAction
+			{
+				actionGroup = Brakes
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelDamage
+		isEnabled = True
+		wheelWear = 0
+		motorWear = 0
+		suspensionWear = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelDustEffects
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = RSE_Wheels
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ShipEffectsCollisions
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = GearFree_4290785704
+	partName = Part
+	persistentId = 4098410772
+	pos = 0.563686788,4.66907501,-6.17452335
+	attPos = 0,-1.90734863E-06,-0.33061111
+	attPos0 = 0.26926434,-1.22523022,0.466380119
+	rot = 0.0593953431,0.0159148797,0.258329272,0.964098096
+	attRot = 0,0,0,1
+	attRot0 = -0.639721394,0.193919897,0.171412855,0.72371912
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = GearFree_4281413098
+	srfN = srfAttach,RO-RFTank-Integral_4281482898,collisionMesh,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelBase
+		isEnabled = True
+		frictionControl = 1
+		showControls = True
+		springRating = 0.5
+		dampRatio = 0.649999976
+		wheelGroup = 0
+		scale = 1
+		antiRoll = 0
+		label = 
+		persistentState = DEPLOYED
+		persistentData = 0,0
+		grounded = True
+		initializedEditor = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelRotation
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelSuspension
+		isEnabled = True
+		lockSuspension = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			suspensionLockAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelSteering
+		isEnabled = True
+		steeringLocked = False
+		invertSteering = False
+		steeringLimit = 1
+		steeringLimitHigh = 1
+		steeringResponse = 0
+		steeringBias = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			steeringLockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			steeringInvertAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelBrakes
+		isEnabled = True
+		brakeLimit = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			brakesAction
+			{
+				actionGroup = Brakes
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelDamage
+		isEnabled = True
+		wheelWear = 0
+		motorWear = 0
+		suspensionWear = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelDustEffects
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = RSE_Wheels
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ShipEffectsCollisions
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = GearFree_4290786672
+	partName = Part
+	persistentId = 2497499104
+	pos = -0.0256922245,4.58100033,0.789937377
+	attPos = 0,-1.90734863E-06,-0.33061111
+	attPos0 = -0.320114672,1.73916626,0.554454744
+	rot = -0.0168066025,0.00450333953,-0.258779883,0.965779722
+	attRot = 0,0,0,1
+	attRot0 = -0.694793403,-0.179800659,-0.186169341,0.671025276
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = GearFree_4290785126
+	srfN = srfAttach,RO-RFTank-Integral_4282239282,collisionMesh,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelBase
+		isEnabled = True
+		frictionControl = 1
+		showControls = True
+		springRating = 0.5
+		dampRatio = 0.649999976
+		wheelGroup = 0
+		scale = 1
+		antiRoll = 0
+		label = 
+		persistentState = DEPLOYED
+		persistentData = 0,0
+		grounded = True
+		initializedEditor = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelRotation
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelSuspension
+		isEnabled = True
+		lockSuspension = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			suspensionLockAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelSteering
+		isEnabled = True
+		steeringLocked = False
+		invertSteering = False
+		steeringLimit = 1
+		steeringLimitHigh = 1
+		steeringResponse = 0
+		steeringBias = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			steeringLockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			steeringInvertAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelBrakes
+		isEnabled = True
+		brakeLimit = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			brakesAction
+			{
+				actionGroup = Brakes
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelDamage
+		isEnabled = True
+		wheelWear = 0
+		motorWear = 0
+		suspensionWear = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelDustEffects
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = RSE_Wheels
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ShipEffectsCollisions
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = GearFree_4290785126
+	partName = Part
+	persistentId = 3716196902
+	pos = 0.61453712,4.58100033,0.789937139
+	attPos = 0,-1.90734863E-06,-0.33061111
+	attPos0 = 0.320114672,1.73916614,0.554454744
+	rot = -0.0168066323,-0.00450333953,0.258779794,0.965779781
+	attRot = 0,0,0,1
+	attRot0 = -0.694793463,0.1798006,0.186169267,0.671025276
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = GearFree_4290786672
+	srfN = srfAttach,RO-RFTank-Integral_4282239282,collisionMesh,0|0|0,0|1|0,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelBase
+		isEnabled = True
+		frictionControl = 1
+		showControls = True
+		springRating = 0.5
+		dampRatio = 0.649999976
+		wheelGroup = 0
+		scale = 1
+		antiRoll = 0
+		label = 
+		persistentState = DEPLOYED
+		persistentData = 0,0
+		grounded = True
+		initializedEditor = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelRotation
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelSuspension
+		isEnabled = True
+		lockSuspension = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			suspensionLockAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelSteering
+		isEnabled = True
+		steeringLocked = False
+		invertSteering = False
+		steeringLimit = 1
+		steeringLimitHigh = 1
+		steeringResponse = 0
+		steeringBias = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			steeringLockAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			steeringInvertAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelBrakes
+		isEnabled = True
+		brakeLimit = 100
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			brakesAction
+			{
+				actionGroup = Brakes
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelDamage
+		isEnabled = True
+		wheelWear = 0
+		motorWear = 0
+		suspensionWear = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KSPWheelDustEffects
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = RSE_Wheels
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
