@@ -1,0 +1,25 @@
+craftName = EarthSat-9
+cachedCraftData
+{
+	origChecksum = 1949cd71a6f5a62915568d721f13b2bc
+	cacheVersion = 3
+	name = EarthSat-9
+	kspVersion = 1.12.3
+	stagesCount = 3
+	cost = 10553.8174
+	partCount = 17
+	mass = 0.683341384
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = RO-ImprovedFilmCamera
+	partNames = ROE-Aerobee
+	partNames = ROT-GenericTank-Integral
+	partNames = ROT-RingDecoupler
+	partNames = RO.LEOHeatShield1m
+	partNames = RP0-SampleReturnCapsule
+	partNames = RP0-SampleReturnCommand
+	partNames = ROS-StaticSolarPanel
+}

@@ -1,14 +1,14 @@
 craftName = SateliteBus-130
 cachedCraftData
 {
-	origChecksum = 7a589e71cb38337f2be4948b7249a0db
+	origChecksum = 593f208deae66fb1438b8cfc521788a9
 	cacheVersion = 3
 	name = SateliteBus-130
 	kspVersion = 1.12.3
 	stagesCount = 0
-	cost = 2281.82495
+	cost = 2312.41235
 	partCount = 9
-	mass = 0.296424389
+	mass = 0.308439195
 	description = 
 	crewCapacity = 0
 	partNames = proceduralAvionics

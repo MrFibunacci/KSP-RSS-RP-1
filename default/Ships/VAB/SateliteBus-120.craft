@@ -2,7 +2,7 @@ ship = SateliteBus-120
 version = 1.12.3
 description = 
 type = VAB
-size = 1.72874999,0.438621521,1.80731845
+size = 1.72874999,0.438621521,1.80731916
 steamPublishedFileId = 0
 persistentId = 3199367404
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = proceduralAvionics_4287590718
 	partName = Part
-	persistentId = 4239820431
+	persistentId = 1868550450
 	pos = 0.006747331,23.974493,0.0276477616
 	attPos = 0,0,0
 	attPos0 = 0.006747331,23.9844971,0.0276477616
@@ -35,8 +35,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 239.379822
-	modMass = -0.907751143
+	modCost = 271.171417
+	modMass = -0.900537372
 	modSize = 0,0,0
 	link = ROS-StaticSolarPanel_4288169800
 	link = RO-RFTank-Integral_4291187068
@@ -2131,8 +2131,8 @@ PART
 		name = ModuleRealAntenna
 		isEnabled = True
 		_enabled = True
-		TxPower = 30
-		TechLevel = 0
+		TxPower = 34
+		TechLevel = 2
 		AMWTemp = 0
 		antennaDiameter = 0
 		referenceGain = 1.5
@@ -2154,6 +2154,8 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
+			upgrade = commsTL1
+			upgrade = commsTL2
 		}
 	}
 	MODULE
@@ -2206,7 +2208,7 @@ PART
 {
 	part = ROS-StaticSolarPanel_4288169800
 	partName = Part
-	persistentId = 476194091
+	persistentId = 1912776083
 	pos = 0.006747331,24.1837864,0.0276477616
 	attPos = 0.170899943,0.00317764282,-1.49011612E-08
 	attPos0 = -0.180899963,0.118000031,1.49011612E-08
@@ -2442,7 +2444,7 @@ PART
 {
 	part = RO-RFTank-Integral_4291187068
 	partName = Part
-	persistentId = 1654123657
+	persistentId = 743107295
 	pos = 0.0067473352,23.971529,0.577729583
 	attPos = 0,0,0
 	attPos0 = 0,-0.00199317932,0.750080764
@@ -2868,7 +2870,7 @@ PART
 {
 	part = RO-RFTank-Integral_4291176444
 	partName = Part
-	persistentId = 3637500961
+	persistentId = 814477219
 	pos = 0.00674729748,23.971529,-0.522432923
 	attPos = 0,0,0
 	attPos0 = -6.56582415E-08,-0.00199317932,-0.750080764
@@ -3294,11 +3296,11 @@ PART
 {
 	part = RCSBlockSmall.69_4290887806
 	partName = Part
-	persistentId = 1030452608
+	persistentId = 2111439556
 	pos = 0.00837853737,23.971529,-0.671288848
 	attPos = 0,3.84170562E-09,0.0440684557
 	attPos0 = -2.32830644E-10,-0.00163125701,-0.19292438
-	rot = 0.487164885,-0.512513936,0.512513936,0.487164855
+	rot = 0.487164855,-0.512513936,0.512513936,0.487164855
 	attRot = 0,0,0,1
 	attRot0 = 0.0179244727,0.706879616,-0.0179245044,-0.706879616
 	mir = 1,1,1
@@ -3313,8 +3315,8 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = -5.71400023
-	modMass = 0
+	modCost = -0.286000013
+	modMass = -0.000495104119
 	modSize = 0,0,0
 	sym = RCSBlockSmall.69_4290885570
 	srfN = srfAttach,RO-RFTank-Integral_4291176444,collisionMesh,0|0|0,2|0|0,0|0|0
@@ -3487,9 +3489,9 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = Nitrogen
-		configurationDisplay = Nitrogen
-		techLevel = 0
+		configuration = NitrousOxide
+		configurationDisplay = NitrousOxide
+		techLevel = 1
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -3554,7 +3556,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = rowaterfallMainPlumeSwitch
-		currentSubtype = cold-gas
+		currentSubtype = monoprop
 		EVENTS
 		{
 		}
@@ -3600,8 +3602,8 @@ PART
 {
 	part = RCSBlockSmall.69_4290885570
 	partName = Part
-	persistentId = 4101726917
-	pos = 0.0051160804,23.971529,0.726585686
+	persistentId = 31152119
+	pos = 0.00511607621,23.971529,0.726586223
 	attPos = 0,3.7252903E-09,0.0440685451
 	attPos0 = 2.32830644E-10,-0.00163125736,-0.1929245
 	rot = -0.512513936,-0.487164855,0.487164885,-0.512513876
@@ -3619,8 +3621,8 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = -5.71400023
-	modMass = 0
+	modCost = -0.286000013
+	modMass = -0.000495104119
 	modSize = 0,0,0
 	sym = RCSBlockSmall.69_4290887806
 	srfN = srfAttach,RO-RFTank-Integral_4291187068,collisionMesh,0|0|0,2|0|0,0|0|0
@@ -3793,9 +3795,9 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = Nitrogen
-		configurationDisplay = Nitrogen
-		techLevel = 0
+		configuration = NitrousOxide
+		configurationDisplay = NitrousOxide
+		techLevel = 1
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -3860,7 +3862,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = rowaterfallMainPlumeSwitch
-		currentSubtype = cold-gas
+		currentSubtype = monoprop
 		EVENTS
 		{
 		}
@@ -3906,7 +3908,7 @@ PART
 {
 	part = RCSBlockSmall.69_4289093688
 	partName = Part
-	persistentId = 2048913496
+	persistentId = 2759880193
 	pos = -0.386591882,23.9687767,0.0276477858
 	attPos = 0,3.84170562E-09,0.0440684557
 	attPos0 = -0.393339217,-0.00571632385,2.42143869E-08
@@ -3925,8 +3927,8 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = -5.71400023
-	modMass = 0
+	modCost = -0.286000013
+	modMass = -0.000495104119
 	modSize = 0,0,0
 	sym = RCSBlockSmall.69_4289092752
 	srfN = srfAttach,proceduralAvionics_4287590718,collisionMesh,0|0|0,2|0|0,0|0|0
@@ -4099,9 +4101,9 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = Nitrogen
-		configurationDisplay = Nitrogen
-		techLevel = 0
+		configuration = NitrousOxide
+		configurationDisplay = NitrousOxide
+		techLevel = 1
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -4166,7 +4168,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = rowaterfallMainPlumeSwitch
-		currentSubtype = cold-gas
+		currentSubtype = monoprop
 		EVENTS
 		{
 		}
@@ -4212,7 +4214,7 @@ PART
 {
 	part = RCSBlockSmall.69_4289092752
 	partName = Part
-	persistentId = 4055705056
+	persistentId = 1311890151
 	pos = 0.400086552,23.9687767,0.0276477039
 	attPos = 0,3.84170562E-09,0.0440684557
 	attPos0 = 0.393339217,-0.00571632385,-5.77419996E-08
@@ -4231,8 +4233,8 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = -5.71400023
-	modMass = 0
+	modCost = -0.286000013
+	modMass = -0.000495104119
 	modSize = 0,0,0
 	sym = RCSBlockSmall.69_4289093688
 	srfN = srfAttach,proceduralAvionics_4287590718,collisionMesh,0|0|0,2|0|0,0|0|0
@@ -4405,9 +4407,9 @@ PART
 		isEnabled = True
 		activePatchName = 
 		dynamicPatchApplied = False
-		configuration = Nitrogen
-		configurationDisplay = Nitrogen
-		techLevel = 0
+		configuration = NitrousOxide
+		configurationDisplay = NitrousOxide
+		techLevel = 1
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -4472,7 +4474,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = rowaterfallMainPlumeSwitch
-		currentSubtype = cold-gas
+		currentSubtype = monoprop
 		EVENTS
 		{
 		}

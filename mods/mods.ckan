@@ -6,11 +6,9 @@
     "author": [
         "MrFibunacci"
     ],
-    "version": "2022.06.06.10.10.00",
-    "ksp_version_min": "1.10",
-    "ksp_version_max": "1.12.3",
+    "version": "2022.06.12.03.49.22",
     "license": [
-        "Unlicense"
+        "unknown"
     ],
     "depends": [
         {
@@ -47,7 +45,7 @@
             "name": "ROTanks"
         },
         {
-            "name": "ROCapsules"
+            "name": "StationPartsExpansionRedux-IVAs"
         },
         {
             "name": "KSPBurst"
@@ -74,7 +72,7 @@
             "name": "PatchManager"
         },
         {
-            "name": "RP-0"
+            "name": "TUFX"
         },
         {
             "name": "AdvancedJetEngine"
@@ -98,7 +96,7 @@
             "name": "RealFuels"
         },
         {
-            "name": "RocketSoundEnhancement"
+            "name": "KSPCommunityFixes"
         },
         {
             "name": "RealHeat"
@@ -191,7 +189,7 @@
             "name": "KSCSwitcher"
         },
         {
-            "name": "KSPCommunityFixes"
+            "name": "RocketSoundEnhancement"
         },
         {
             "name": "ProceduralFairings"
@@ -230,7 +228,7 @@
             "name": "StagedAnimation"
         },
         {
-            "name": "CommunityCategoryKit"
+            "name": "CommunityResourcePack"
         },
         {
             "name": "RSSVE-HR"
@@ -416,7 +414,7 @@
             "name": "Trajectories"
         },
         {
-            "name": "TUFX"
+            "name": "RP-0"
         },
         {
             "name": "VesselView"
@@ -434,7 +432,7 @@
             "name": "RealSolarSystem"
         },
         {
-            "name": "CommunityResourcePack"
+            "name": "CommunityCategoryKit"
         },
         {
             "name": "KerbalEngineerRedux"
@@ -446,14 +444,41 @@
             "name": "SXTContinued"
         },
         {
-            "name": "Kopernicus"
+            "name": "ROCapsules"
         },
         {
             "name": "FASA"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "KerbalAtomics-NTRsUseLF"
+        },
+        {
+            "name": "HeatControl"
+        },
+        {
+            "name": "CameraTools"
+        },
+        {
+            "name": "SpaceXLegs"
+        },
+        {
+            "name": "TundraExploration"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "PersistentThrust"
         }
     ],
     "recommends": [],
     "suggests": [],
     "kind": "metapackage",
-    "release_date": "2022-06-07T00:10:00.2553807+02:00"
+    "release_date": "2022-06-12T17:49:22.7083016+02:00"
 }

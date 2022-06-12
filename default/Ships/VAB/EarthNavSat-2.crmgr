@@ -1,0 +1,20 @@
+craftName = EarthNavSat-2
+cachedCraftData
+{
+	origChecksum = bf2b7e641e069df63f7a8b23b4e03ae7
+	cacheVersion = 3
+	name = EarthNavSat-2
+	kspVersion = 1.12.3
+	stagesCount = 1
+	cost = 2536.48779
+	partCount = 13
+	mass = 0.764289498
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = RO-RFTank-SM
+	partNames = RO-RFTank-Integral
+	partNames = ROE-Aerobee
+	partNames = RCSBlock.69
+	partNames = ROS-StaticSolarPanel
+}

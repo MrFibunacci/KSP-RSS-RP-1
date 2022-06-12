@@ -35,8 +35,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 217.270844
-	modMass = -0.903298259
+	modCost = 242.014893
+	modMass = -0.897110403
 	modSize = 0,0,0
 	link = ROS-StaticSolarPanel_4288169800
 	link = RO-RFTank-Integral_4291187068
@@ -2133,7 +2133,7 @@ PART
 		isEnabled = True
 		_enabled = True
 		TxPower = 34
-		TechLevel = 1
+		TechLevel = 2
 		AMWTemp = 0
 		antennaDiameter = 0
 		referenceGain = 1.5
@@ -2156,6 +2156,7 @@ PART
 		UPGRADESAPPLIED
 		{
 			upgrade = commsTL1
+			upgrade = commsTL2
 		}
 	}
 	MODULE
@@ -3653,7 +3654,7 @@ PART
 	part = RCSBlockSmall.69_4290885570
 	partName = Part
 	persistentId = 4101726917
-	pos = 0.00511607854,23.6423092,0.726585925
+	pos = 0.00511607761,23.6423092,0.726586044
 	attPos = 0,3.7252903E-09,0.0440685451
 	attPos0 = 2.32830644E-10,-0.00163125736,-0.1929245
 	rot = -0.512513936,-0.487164855,0.487164885,-0.512513876

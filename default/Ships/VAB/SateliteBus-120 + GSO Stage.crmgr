@@ -1,0 +1,21 @@
+craftName = SateliteBus-120 + GSO Stage
+cachedCraftData
+{
+	origChecksum = 1b35e6f2118d287c8dc9446fb2e9f27c
+	cacheVersion = 3
+	name = SateliteBus-120 + GSO Stage
+	kspVersion = 1.12.3
+	stagesCount = 2
+	cost = 5156.27637
+	partCount = 12
+	mass = 3.06917477
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = ROT-RingDecoupler
+	partNames = ROT-GenericTank-Integral
+	partNames = ROE-AJ10Mid
+}

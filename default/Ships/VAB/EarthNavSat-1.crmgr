@@ -1,0 +1,33 @@
+craftName = EarthNavSat-1
+cachedCraftData
+{
+	origChecksum = 2ab556c5541b8b9f11b38da33b0d963b
+	cacheVersion = 3
+	name = EarthNavSat-1
+	kspVersion = 1.12.3
+	stagesCount = 7
+	cost = 9713.87695
+	partCount = 58
+	mass = 126.479576
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = RO-RFTank-SM
+	partNames = RO-RFTank-Integral
+	partNames = ROE-Aerobee
+	partNames = RCSBlock.69
+	partNames = ROS-StaticSolarPanel
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = radialDecoupler1-2
+	partNames = ROE-LR87.Single
+	partNames = parachuteRadial
+	partNames = airbrake1
+}

@@ -1,0 +1,34 @@
+craftName = R-110-10 and EarthSat-9
+cachedCraftData
+{
+	origChecksum = 378b77f3e7957a23bb90eb7f8fa615ad
+	cacheVersion = 3
+	name = R-110-10 and EarthSat-9
+	kspVersion = 1.12.3
+	stagesCount = 8
+	cost = 16375.7607
+	partCount = 52
+	mass = 57.2845345
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = ROE-Aerobee
+	partNames = ROT-GenericTank-Integral
+	partNames = RO-ImprovedFilmCamera
+	partNames = ROT-RingDecoupler
+	partNames = RO.LEOHeatShield1m
+	partNames = RP0-SampleReturnCapsule
+	partNames = RP0-SampleReturnCommand
+	partNames = ROS-StaticSolarPanel
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = parachuteRadial
+}
