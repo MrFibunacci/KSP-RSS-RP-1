@@ -1,7 +1,7 @@
 craftName = SateliteBus-120 + GSO Stage
 cachedCraftData
 {
-	origChecksum = 1b35e6f2118d287c8dc9446fb2e9f27c
+	origChecksum = 2ada985eb223a90bb3764b79b9bdddf9
 	cacheVersion = 3
 	name = SateliteBus-120 + GSO Stage
 	kspVersion = 1.12.3

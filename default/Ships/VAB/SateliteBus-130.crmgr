@@ -1,7 +1,7 @@
 craftName = SateliteBus-130
 cachedCraftData
 {
-	origChecksum = 593f208deae66fb1438b8cfc521788a9
+	origChecksum = b44025231bcb7c59ca0d3bcc798bc0ce
 	cacheVersion = 3
 	name = SateliteBus-130
 	kspVersion = 1.12.3

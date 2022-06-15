@@ -1,0 +1,35 @@
+craftName = R-120-6 and EarthSat-10
+cachedCraftData
+{
+	origChecksum = c623557961a5260cbb8afdc6cc044df5
+	cacheVersion = 3
+	name = R-120-6 and EarthSat-10
+	kspVersion = 1.12.3
+	stagesCount = 10
+	cost = 17939.6602
+	partCount = 59
+	mass = 129.679962
+	description = 
+	crewCapacity = 0
+	partNames = RP0-SampleReturnCommand
+	partNames = BioCapsule
+	partNames = RO.LEOHeatShield1m
+	partNames = ROT-RingDecoupler
+	partNames = proceduralAvionics
+	partNames = ROT-GenericTank-Integral
+	partNames = RO-RFTank-Integral
+	partNames = ROE-AJ10Mid
+	partNames = RCSBlockSmall.28
+	partNames = ROS-StaticSolarPanel
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = radialDecoupler1-2
+	partNames = ROE-LR87.Single
+	partNames = parachuteRadial
+	partNames = launchClamp1
+}
