@@ -1,7 +1,7 @@
 craftName = GeoStationary Prototype
 cachedCraftData
 {
-	origChecksum = fef12e04522ff487fa6bb5efc3ccb6cc
+	origChecksum = 8ddc5663eaa1931e226e9d480b4b8b00
 	cacheVersion = 3
 	name = GeoStationary Prototype
 	kspVersion = 1.12.3

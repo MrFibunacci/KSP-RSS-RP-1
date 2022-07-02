@@ -1,7 +1,7 @@
 craftName = EarthComSat-1
 cachedCraftData
 {
-	origChecksum = 1715b93f82b9ca98d2bf972ca60dfeb4
+	origChecksum = adb994b8b52ee0d442564a803ed0db75
 	cacheVersion = 3
 	name = EarthComSat-1
 	kspVersion = 1.12.3

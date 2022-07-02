@@ -1,0 +1,19 @@
+craftName = EarthComSat-3
+cachedCraftData
+{
+	origChecksum = 19cbf003fa90a739b10f653465815cd4
+	cacheVersion = 3
+	name = EarthComSat-3
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 2315.43018
+	partCount = 9
+	mass = 0.381656945
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = RO-RFTank-SM
+}

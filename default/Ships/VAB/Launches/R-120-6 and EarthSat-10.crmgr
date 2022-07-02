@@ -1,11 +1,11 @@
 craftName = R-120-6 and EarthSat-10
 cachedCraftData
 {
-	origChecksum = c623557961a5260cbb8afdc6cc044df5
+	origChecksum = b96cff8f2253f67da96e69d4eac42a3f
 	cacheVersion = 3
 	name = R-120-6 and EarthSat-10
 	kspVersion = 1.12.3
-	stagesCount = 10
+	stagesCount = 9
 	cost = 17939.6602
 	partCount = 59
 	mass = 129.679962
