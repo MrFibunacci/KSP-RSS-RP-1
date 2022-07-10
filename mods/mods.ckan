@@ -6,7 +6,7 @@
     "author": [
         "MrFibunacci"
     ],
-    "version": "2022.06.12.03.49.22",
+    "version": "2022.07.10.09.44.37",
     "license": [
         "unknown"
     ],
@@ -30,7 +30,7 @@
             "name": "RP-1-ExpressInstall-Graphics-High"
         },
         {
-            "name": "ModuleManager"
+            "name": "RocketSoundEnhancement-Config-Default"
         },
         {
             "name": "ClickThroughBlocker"
@@ -45,7 +45,7 @@
             "name": "ROTanks"
         },
         {
-            "name": "StationPartsExpansionRedux-IVAs"
+            "name": "ThroughTheEyesOfaKerbal"
         },
         {
             "name": "KSPBurst"
@@ -96,7 +96,7 @@
             "name": "RealFuels"
         },
         {
-            "name": "KSPCommunityFixes"
+            "name": "StationPartsExpansionRedux"
         },
         {
             "name": "RealHeat"
@@ -147,10 +147,10 @@
             "name": "Kerbalism"
         },
         {
-            "name": "ModularLaunchPads"
+            "name": "AtmosphereAutopilot"
         },
         {
-            "name": "RocketSoundEnhancement-Config-Default"
+            "name": "RasterPropMonitor-Core"
         },
         {
             "name": "DistantObject"
@@ -186,7 +186,7 @@
             "name": "KerbalRenamer"
         },
         {
-            "name": "KSCSwitcher"
+            "name": "RasterPropMonitor"
         },
         {
             "name": "RocketSoundEnhancement"
@@ -279,10 +279,10 @@
             "name": "DockingPortAlignmentIndicator"
         },
         {
-            "name": "RasterPropMonitor"
+            "name": "KSCSwitcher"
         },
         {
-            "name": "RasterPropMonitor-Core"
+            "name": "Kopernicus"
         },
         {
             "name": "DockingPortSoundFX"
@@ -291,7 +291,7 @@
             "name": "EditorTime"
         },
         {
-            "name": "AtmosphereAutopilot"
+            "name": "ModularLaunchPads"
         },
         {
             "name": "ScienceSituationInfo"
@@ -360,7 +360,7 @@
             "name": "NearFutureSpacecraft"
         },
         {
-            "name": "StationPartsExpansionRedux"
+            "name": "KSPCommunityFixes"
         },
         {
             "name": "Parallax"
@@ -408,13 +408,13 @@
             "name": "KSP-AVC"
         },
         {
-            "name": "ThroughTheEyesOfaKerbal"
+            "name": "StationPartsExpansionRedux-IVAs"
         },
         {
             "name": "Trajectories"
         },
         {
-            "name": "RP-0"
+            "name": "ROCapsules"
         },
         {
             "name": "VesselView"
@@ -444,13 +444,13 @@
             "name": "SXTContinued"
         },
         {
-            "name": "ROCapsules"
+            "name": "RP-0"
         },
         {
             "name": "FASA"
         },
         {
-            "name": "Kopernicus"
+            "name": "ModuleManager"
         },
         {
             "name": "KerbalAtomics"
@@ -475,10 +475,19 @@
         },
         {
             "name": "PersistentThrust"
+        },
+        {
+            "name": "ConformalDecals"
+        },
+        {
+            "name": "Shabby"
+        },
+        {
+            "name": "DepthMask"
         }
     ],
     "recommends": [],
     "suggests": [],
     "kind": "metapackage",
-    "release_date": "2022-06-12T17:49:22.7083016+02:00"
+    "release_date": "2022-07-10T23:44:37.1914572+02:00"
 }

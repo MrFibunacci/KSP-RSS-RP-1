@@ -2,9 +2,9 @@ ship = X-2
 version = 1.12.3
 description = 
 type = SPH
-size = 6.29152536,2.43717289,11.7282581
+size = 6.29152489,2.43717289,11.7332182
 steamPublishedFileId = 0
-persistentId = 3414357909
+persistentId = 2709456586
 rot = 0,0,0,0
 missionFlag = Squad/Flags/hexagon
 vesselType = Debris
@@ -16,7 +16,7 @@ PART
 {
 	part = Mark1Cockpit_4282549986
 	partName = Part
-	persistentId = 1403593753
+	persistentId = 303740897
 	pos = 0.294422448,5.13545513,1.65920806
 	attPos = 0,0,0
 	attPos0 = 0.294422448,5.13545513,1.65920806
@@ -61,6 +61,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -441,7 +461,7 @@ PART
 	MODULE
 	{
 		name = ProcessController
-		isEnabled = False
+		isEnabled = True
 		running = True
 		valve_i = 0
 		stagingEnabled = True
@@ -463,7 +483,7 @@ PART
 	MODULE
 	{
 		name = ProcessController
-		isEnabled = False
+		isEnabled = True
 		running = True
 		valve_i = 0
 		stagingEnabled = True
@@ -486,8 +506,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg =  
-		prev_cfg =  
+		cfg = "-LiOH Scrubber6O2 Pressure Controller
+		prev_cfg = "-LiOH Scrubber6O2 Pressure Controller
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1775,12 +1795,34 @@ PART
 		isVisible = False
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = _EVAScrubber
+		amount = 1.1000000000000001
+		maxAmount = 1.1000000000000001
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = _PressureControlOxygen
+		amount = 1.1000000000000001
+		maxAmount = 1.1000000000000001
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = False
+		flowMode = Both
+	}
 }
 PART
 {
 	part = parachuteRadial_4285510256
 	partName = Part
-	persistentId = 2192647776
+	persistentId = 624022899
 	pos = 0.295649439,5.13474655,1.43917298
 	attPos = 0,0.153432697,0
 	attPos0 = 0.00122699142,-0.220035106,0.000708609819
@@ -1819,6 +1861,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -2082,7 +2144,7 @@ PART
 {
 	part = ROT-RingDecoupler_4285505100
 	partName = Part
-	persistentId = 2012413225
+	persistentId = 880206564
 	pos = 0.294422448,5.13545513,1.39561439
 	attPos = 0,0,0
 	attPos0 = 0,-0.26359117,2.98023224E-08
@@ -2123,6 +2185,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -2383,8 +2465,8 @@ PART
 {
 	part = RO-RFTank-Integral_4285148630
 	partName = Part
-	persistentId = 1243702384
-	pos = 0.294422448,5.13545513,1.20077157
+	persistentId = 107917301
+	pos = 0.294422448,5.13545513,1.20077133
 	attPos = 0,0,0
 	attPos0 = 0,-0.194841295,2.98023224E-08
 	rot = 0.707106829,0,0,0.707106829
@@ -2424,6 +2506,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -2832,8 +2934,8 @@ PART
 {
 	part = RO-RFTank-Integral_4282239282
 	partName = Part
-	persistentId = 2048068017
-	pos = 0.294422448,5.13545513,-0.949233294
+	persistentId = 582145575
+	pos = 0.294422448,5.13545513,-0.949234247
 	attPos = 0,0,0
 	attPos0 = 0,-2.14999986,1.78813892E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -2879,6 +2981,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -3312,8 +3434,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4280312086
 	partName = Part
-	persistentId = 3872597989
-	pos = -0.305577576,5.13545513,-2.45275617
+	persistentId = 194420447
+	pos = -0.305577576,5.13545513,-2.45275807
 	attPos = 0.0939474702,-0.0820940733,-1.42108547E-14
 	attPos0 = -0.693947494,-1.42141402,2.3841848E-07
 	rot = -0.000419834134,0.70710665,0.707106769,0.00041985503
@@ -3354,6 +3476,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -3700,8 +3842,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4280145400
 	partName = Part
-	persistentId = 1066930416
-	pos = -1.2678442,5.13545561,-3.77365518
+	persistentId = 4292381608
+	pos = -1.2678442,5.13545561,-3.77365708
 	attPos = 5.36441803E-07,-1.31130219E-06,7.81963081E-08
 	attPos0 = 0.96383363,-1.31975532,2.12768498E-07
 	rot = -0.000419855874,0.70710659,0.707106829,0.000419854943
@@ -3745,6 +3887,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -4091,11 +4253,11 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4279763348
 	partName = Part
-	persistentId = 780107844
-	pos = -2.17792821,5.13545704,-5.63089466
+	persistentId = 3352606634
+	pos = -2.17792773,5.13545704,-5.63089943
 	attPos = 0,0,0
 	attPos0 = 0.912290454,-1.85611677,4.80054609E-07
-	rot = 0.707102358,0.00258118985,-0.00250618951,0.707102239
+	rot = 0.707102358,0.00258118915,-0.00250618882,0.707102239
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 0.00419109501,-0.999991298,-2.80298842E-08,5.30319958E-05
 	mir = 1,1,1
@@ -4131,6 +4293,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -4394,8 +4576,8 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4279583344
 	partName = Part
-	persistentId = 3540839534
-	pos = -0.837457597,5.13545656,-5.64254093
+	persistentId = 2263289515
+	pos = -0.837457597,5.13545656,-5.64254665
 	attPos = 0,0,0
 	attPos0 = 0.535666943,-3.18910074,5.5771352E-07
 	rot = -0.00748873549,-0.707067132,-0.707067132,0.00750939036
@@ -4434,6 +4616,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -4697,8 +4899,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4280302256
 	partName = Part
-	persistentId = 1960091511
-	pos = 0.894422472,5.13545513,-2.4527576
+	persistentId = 427444401
+	pos = 0.894422472,5.13545513,-2.4527595
 	attPos = -0.0939474702,-0.0820955038,-1.42108547E-14
 	attPos0 = 0.693947494,-1.42141402,2.3841848E-07
 	rot = -0.707107008,-0.00041988556,0.000419803138,-0.707106531
@@ -4739,6 +4941,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -5085,8 +5307,8 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4280135636
 	partName = Part
-	persistentId = 3371925377
-	pos = 1.85668898,5.13545561,-3.77365613
+	persistentId = 2415805460
+	pos = 1.85668898,5.13545561,-3.77365804
 	attPos = 0,0,0
 	attPos0 = 0.963834107,-1.31975532,3.42927535E-07
 	rot = -0.707107067,-0.000419885648,0.000419824995,-0.707106471
@@ -5130,6 +5352,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -5476,8 +5718,8 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4279744052
 	partName = Part
-	persistentId = 887184886
-	pos = 2.76677537,5.13545704,-5.63089752
+	persistentId = 3316012291
+	pos = 2.76677537,5.13545704,-5.63090229
 	attPos = 0,0,0
 	attPos0 = 0.912290335,-1.85611582,1.89055504E-06
 	rot = 0.707102478,-0.00258119754,0.00250619627,0.707102239
@@ -5516,6 +5758,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -5779,8 +6041,8 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4279530746
 	partName = Part
-	persistentId = 1584470056
-	pos = 1.42630243,5.13545656,-5.64254379
+	persistentId = 3043694672
+	pos = 1.42630243,5.13545656,-5.64254951
 	attPos = 0,0,0
 	attPos0 = 0.535667121,-3.18909979,2.91032893E-06
 	rot = -0.00748873828,0.707067251,0.707067013,0.00750939129
@@ -5819,6 +6081,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -6082,8 +6364,8 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4275983778
 	partName = Part
-	persistentId = 3088085209
-	pos = -0.367207408,5.13545513,0.00980246067
+	persistentId = 2772550057
+	pos = -0.367207408,5.13545513,0.009801507
 	attPos = 0,-0.818341732,8.94069316E-08
 	attPos0 = -0.661629856,0.959035397,0
 	rot = -0.0116756912,0.725532532,0.687857866,-0.0178299155
@@ -6122,6 +6404,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -6402,8 +6704,8 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4285162074
 	partName = Part
-	persistentId = 419759242
-	pos = 0.956052303,5.13545513,0.00980234146
+	persistentId = 2000523520
+	pos = 0.956052303,5.13545513,0.00980138779
 	attPos = 0,-0.818341732,8.94069316E-08
 	attPos0 = 0.661629856,0.959035277,0
 	rot = -0.687857807,0.0178298801,0.0116756577,-0.725532591
@@ -6442,6 +6744,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -6722,8 +7044,8 @@ PART
 {
 	part = GearFree_4290786672
 	partName = Part
-	persistentId = 2408826239
-	pos = -0.0256922245,4.58100033,0.789935231
+	persistentId = 3194442155
+	pos = -0.0256922245,4.58100033,0.789934754
 	attPos = 0,-1.90734863E-06,-0.33061111
 	attPos0 = -0.320114672,1.73916626,0.554454744
 	rot = -0.0168065429,0.00450333953,-0.258779883,0.965779722
@@ -6762,6 +7084,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -7031,8 +7373,8 @@ PART
 {
 	part = GearFree_4290785126
 	partName = Part
-	persistentId = 1064581697
-	pos = 0.61453712,4.58100033,0.789934993
+	persistentId = 3887772535
+	pos = 0.61453712,4.58100033,0.789934516
 	attPos = 0,-1.90734863E-06,-0.33061111
 	attPos0 = 0.320114672,1.73916614,0.554454744
 	rot = -0.0168066323,-0.00450333953,0.258779794,0.965779781
@@ -7071,6 +7413,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -7340,8 +7702,8 @@ PART
 {
 	part = vernierEngine_4288887026
 	partName = Part
-	persistentId = 1199162390
-	pos = 0.294422448,5.21710873,3.69085789
+	persistentId = 2200976701
+	pos = 0.294422448,5.21710873,3.69085884
 	attPos = 0,-0.0653471947,-0.0365343094
 	attPos0 = 0,2.09699297,-0.045119524
 	rot = -0.580099285,0.404332757,0.580099285,-0.404332757
@@ -7386,6 +7748,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -7634,8 +8020,8 @@ PART
 {
 	part = vernierEngine_4288883666
 	partName = Part
-	persistentId = 995037161
-	pos = 0.212768614,5.13545513,3.69085836
+	persistentId = 2477941555
+	pos = 0.212768614,5.13545513,3.69085932
 	attPos = -0.0365343094,-0.0653467178,-4.76837158E-07
 	attPos0 = -0.045119524,2.09699297,2.38418579E-07
 	rot = -0.696098626,-0.124285676,0.124285661,-0.696098506
@@ -7680,6 +8066,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -7928,8 +8338,8 @@ PART
 {
 	part = vernierEngine_4288883580
 	partName = Part
-	persistentId = 3103403218
-	pos = 0.294422448,5.05380106,3.69085836
+	persistentId = 4279599820
+	pos = 0.294422448,5.05380106,3.69085932
 	attPos = 0,-0.0653467178,0.0365343094
 	attPos0 = 0,2.09699297,0.045119524
 	rot = -0.404332727,-0.580099285,-0.404332817,-0.580099225
@@ -7974,6 +8384,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -8222,8 +8656,8 @@ PART
 {
 	part = vernierEngine_4288883494
 	partName = Part
-	persistentId = 2904086140
-	pos = 0.376076281,5.13545513,3.69085836
+	persistentId = 2648712950
+	pos = 0.376076281,5.13545513,3.69085932
 	attPos = 0.0365343094,-0.0653467178,-4.76837158E-07
 	attPos0 = 0.045119524,2.09699297,2.38418579E-07
 	rot = 0.124285661,-0.696098506,-0.696098626,-0.124285676
@@ -8268,6 +8702,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -8516,8 +8974,8 @@ PART
 {
 	part = vernierEngine_4288862332
 	partName = Part
-	persistentId = 4678223
-	pos = 3.26023078,5.13545752,-5.24306107
+	persistentId = 126327080
+	pos = 3.26023078,5.13545752,-5.24306679
 	attPos = 0.0365343094,-0.0653467178,-4.76837158E-07
 	attPos0 = 1.40528584,-1.46772301,-8.45559214E-08
 	rot = -0.499703318,0.499702722,0.500297308,-0.500296712
@@ -8558,6 +9016,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -8806,8 +9288,8 @@ PART
 {
 	part = vernierEngine_4288861860
 	partName = Part
-	persistentId = 1210347916
-	pos = -2.67138171,5.13545752,-5.24306011
+	persistentId = 644468709
+	pos = -2.67138076,5.13545752,-5.24306583
 	attPos = 0.0365343094,-0.0653467178,-4.76837158E-07
 	attPos0 = 1.40528548,-1.46772301,9.94727543E-07
 	rot = -0.500297189,0.500296652,0.499703288,-0.499702722
@@ -8848,6 +9330,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -9096,8 +9602,8 @@ PART
 {
 	part = vernierEngine_4288861254
 	partName = Part
-	persistentId = 2293392285
-	pos = 3.27145362,5.06678677,-5.26138401
+	persistentId = 3798332994
+	pos = 3.27145362,5.06678677,-5.26138878
 	attPos = 0,-3.57627869E-06,0.0686707497
 	attPos0 = 1.41653037,-1.48603261,-6.83077417E-08
 	rot = -0.500297129,-0.500296354,-0.499703616,-0.499702901
@@ -9138,6 +9644,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -9386,8 +9916,8 @@ PART
 {
 	part = vernierEngine_4288860498
 	partName = Part
-	persistentId = 367004561
-	pos = -2.68260455,5.06678677,-5.26138878
+	persistentId = 2478493525
+	pos = -2.6826036,5.06678677,-5.2613945
 	attPos = 0,-5.7220459E-06,-0.0686707422
 	attPos0 = 1.41653001,-1.48603261,9.8928399E-07
 	rot = 0.499703646,0.499702871,0.50029707,0.500296295
@@ -9428,6 +9958,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -9676,8 +10230,8 @@ PART
 {
 	part = vernierEngine_4288560764
 	partName = Part
-	persistentId = 979361304
-	pos = 0.135189861,5.13545513,3.47686863
+	persistentId = 69475845
+	pos = 0.135189861,5.13545513,3.47686958
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = -0.0571717769,-0.288289517,4.57633078E-08
 	rot = 0.70520401,-0.05182207,-0.0518288575,-0.705206275
@@ -9720,6 +10274,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -9968,8 +10546,8 @@ PART
 {
 	part = vernierEngine_4288558036
 	partName = Part
-	persistentId = 31981247
-	pos = 0.294422507,4.97622204,3.47686958
+	persistentId = 1130536254
+	pos = 0.294422507,4.97622204,3.47687054
 	attPos = 0.058439292,0.0606751144,-1.49011612E-08
 	attPos0 = -0.0571718961,-0.2882891,5.96046448E-08
 	rot = 0.535298228,0.46201092,-0.535304785,-0.462007403
@@ -10012,6 +10590,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -10260,8 +10862,8 @@ PART
 {
 	part = vernierEngine_4288557944
 	partName = Part
-	persistentId = 1610849499
-	pos = 0.453655064,5.13545513,3.47686958
+	persistentId = 657875226
+	pos = 0.453655064,5.13545513,3.47687054
 	attPos = 0.0584396794,0.0606752634,6.81158951E-09
 	attPos0 = -0.0571720228,-0.2882891,-4.57632332E-08
 	rot = 0.0518220924,0.705204129,-0.705206156,0.0518288724
@@ -10304,6 +10906,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -10552,8 +11178,8 @@ PART
 {
 	part = vernierEngine_4288557852
 	partName = Part
-	persistentId = 2789771507
-	pos = 0.294422418,5.29468727,3.47686911
+	persistentId = 2608108519
+	pos = 0.294422418,5.29468727,3.47687006
 	attPos = 0.058439739,0.0606752783,-7.45058415E-09
 	attPos0 = -0.0571718514,-0.28828904,4.47034907E-08
 	rot = 0.46201092,-0.535298169,0.462007314,-0.535304785
@@ -10596,6 +11222,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -10844,8 +11494,8 @@ PART
 {
 	part = vernierEngine_4288513792
 	partName = Part
-	persistentId = 3209733509
-	pos = -2.26784444,5.13545561,-5.17366314
+	persistentId = 4035253147
+	pos = -2.26784444,5.13545561,-5.17366791
 	attPos = -0.23559773,0.338424921,-0.0225013662
 	attPos0 = 1.23725975,-1.73724163,0.022500474
 	rot = -0.500297248,0.500296533,0.499703407,-0.499702692
@@ -10886,6 +11536,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -11134,8 +11808,8 @@ PART
 {
 	part = vernierEngine_4288513368
 	partName = Part
-	persistentId = 836756335
-	pos = 2.85668945,5.13545561,-5.17366219
+	persistentId = 861264058
+	pos = 2.85668945,5.13545561,-5.17366695
 	attPos = -0.23559761,0.338425875,0.022501165
 	attPos0 = 1.23725986,-1.73724067,-0.0224994346
 	rot = 0.499703377,-0.499702901,-0.500297129,0.500296593
@@ -11176,6 +11850,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -11424,8 +12122,8 @@ PART
 {
 	part = vernierEngine_4288512920
 	partName = Part
-	persistentId = 518339449
-	pos = -2.4972713,5.112957,-5.50962639
+	persistentId = 3918934178
+	pos = -2.49727225,5.112957,-5.50963116
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = 1.23148477,-1.73450387,-0.0224996023
 	rot = 0.500296593,0.50029707,-0.499702871,-0.499703318
@@ -11466,6 +12164,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -11714,8 +12436,8 @@ PART
 {
 	part = vernierEngine_4288511920
 	partName = Part
-	persistentId = 2955853080
-	pos = 3.08611608,5.112957,-5.50962639
+	persistentId = 2800930017
+	pos = 3.08611703,5.112957,-5.50963116
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = 1.23148489,-1.73450291,0.0225006398
 	rot = 0.49970293,0.499703348,-0.500296593,-0.500297189
@@ -11756,6 +12478,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -12004,11 +12750,11 @@ PART
 {
 	part = vernierEngine_4288141326
 	partName = Part
-	persistentId = 1915337582
-	pos = 0.0342609286,5.13545513,3.28146505
-	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
+	persistentId = 2611391288
+	pos = 0.119060606,5.13545513,3.28146887
+	attPos = 0.079559043,0.029348433,-1.77848847E-10
 	attPos0 = -0.0258032717,-0.445872217,7.45833546E-08
-	rot = -0.705206275,-0.0518288761,0.0518220887,-0.70520401
+	rot = 0.700834632,0.0939838141,-0.0939770192,0.700832725
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 6.82177188E-07,4.99016414E-06,0.103142448,0.994666576
 	mir = 1,1,1
@@ -12048,6 +12794,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -12296,11 +13066,11 @@ PART
 {
 	part = vernierEngine_4288139450
 	partName = Part
-	persistentId = 2347889290
-	pos = 0.294422537,4.87529373,3.28146553
-	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
+	persistentId = 1500493546
+	pos = 0.294422597,4.96009302,3.28146887
+	attPos = 0.0795589387,0.0293478966,8.19563937E-08
 	attPos0 = -0.0258031972,-0.445871741,5.96046519E-08
-	rot = -0.462007433,-0.535304666,-0.462010771,-0.535298228
+	rot = 0.429108262,0.562021494,0.429111898,0.562015414
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 6.85453358E-07,4.97698738E-06,0.103142411,0.994666576
 	mir = 1,1,1
@@ -12340,6 +13110,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -12588,11 +13382,11 @@ PART
 {
 	part = vernierEngine_4288139358
 	partName = Part
-	persistentId = 2324190639
-	pos = 0.554584146,5.13545513,3.28146553
-	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
+	persistentId = 3994930232
+	pos = 0.46978426,5.13545513,3.28146887
+	attPos = 0.0795592964,0.0293480158,1.77770687E-10
 	attPos0 = -0.025803525,-0.4458718,-7.45832907E-08
-	rot = 0.0518288761,-0.705206156,-0.705204129,-0.0518220887
+	rot = -0.0939838067,0.700834513,0.700832844,0.0939770266
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 6.82295706E-07,5.00156239E-06,0.103142448,0.994666576
 	mir = 1,1,1
@@ -12632,6 +13426,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -12880,13 +13698,13 @@ PART
 {
 	part = vernierEngine_4288139266
 	partName = Part
-	persistentId = 1739019280
-	pos = 0.294422388,5.39561653,3.28146505
-	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
+	persistentId = 1106118480
+	pos = 0.294422299,5.31081676,3.28146744
+	attPos = 0.0795596987,0.0293471813,5.21540713E-08
 	attPos0 = -0.0258035865,-0.44587186,7.45058131E-08
-	rot = -0.535304785,0.462007463,0.535298467,-0.462010682
-	attRot = 0,0,0,-0.999999881
-	attRot0 = 7.00354576E-07,5.03659248E-06,0.103142381,0.994666696
+	rot = 0.562021494,-0.429108262,-0.562015414,0.429111779
+	attRot = 5.88644467E-09,-6.36601953E-08,-0.0599087328,0.998203874
+	attRot0 = -4.09781876E-07,-5.00678971E-06,-0.0433678962,-0.9990592
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -12924,6 +13742,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -13172,8 +14014,8 @@ PART
 {
 	part = RO-RFTank-Integral_4281482898
 	partName = Part
-	persistentId = 2780443028
-	pos = 0.294422448,5.13545513,-4.94923782
+	persistentId = 1359216636
+	pos = 0.294422448,5.13545513,-4.94924259
 	attPos = 0,0,0
 	attPos0 = 0,-4.00000143,7.15255737E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -13237,6 +14079,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -13670,8 +14532,8 @@ PART
 {
 	part = SSTUHollowRing.Boattail_4281356550
 	partName = Part
-	persistentId = 3003027385
-	pos = 0.294422448,5.13545513,-6.95001411
+	persistentId = 4046099421
+	pos = 0.294422448,5.13545513,-6.95002174
 	attPos = 0,0,0
 	attPos0 = 0,-2.00000286,0
 	rot = 0,-0.707106829,0.707106829,0
@@ -13696,8 +14558,8 @@ PART
 	link = KzProcFairingSide1_4281355654
 	link = KzProcFairingSide1_4281354922
 	link = KzProcFairingSide1_4281354190
-	link = ROE-XLR25_4281353386
-	attN = top,ROE-XLR25_4281353386_0|0.0599999987|0_0|1|0_0|0.0453600027|0_0|1|0
+	link = ROE-XLR25_4289320064
+	attN = top,ROE-XLR25_4289320064_0|0.0599999987|0_0|1|0_0|0.0453600027|0_0|1|0
 	attN = top1,Null_0_0|2|0_0|1|0_0|0.600000024|0_0|1|0
 	attN = bottom,RO-RFTank-Integral_4281482898_0|0|0_0|-1|0_0|0|0_0|-1|0
 	attN = connect01,KzProcFairingSide1_4281354922_1|0.0226800013|0_0|1|0_0.420000017|0.0226800013|0_0|1|0
@@ -13724,6 +14586,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -13924,11 +14806,11 @@ PART
 {
 	part = KzProcFairingSide1_4281356386
 	partName = Part
-	persistentId = 3099943206
-	pos = 0.714422584,5.13545513,-6.47269726
+	persistentId = 2476253654
+	pos = 0.714422584,5.13545513,-6.47270393
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -0.707106769,-4.78987481E-08,4.7898741E-08,0.707106888
+	rot = -0.707106769,-4.78988404E-08,4.78988404E-08,0.707106888
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -13966,6 +14848,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -14219,8 +15121,8 @@ PART
 {
 	part = KzProcFairingSide1_4281355654
 	partName = Part
-	persistentId = 2439111431
-	pos = 0.294422477,4.71545506,-6.47269726
+	persistentId = 2409443239
+	pos = 0.294422477,4.71545506,-6.47270393
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.50000006,0.50000006,-0.50000006,0.50000006
@@ -14261,6 +15163,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -14514,11 +15436,11 @@ PART
 {
 	part = KzProcFairingSide1_4281354922
 	partName = Part
-	persistentId = 1490000047
-	pos = -0.125577658,5.13545513,-6.47269726
+	persistentId = 450852437
+	pos = -0.125577658,5.13545513,-6.47270393
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 4.78987516E-08,0.707106888,-0.707106769,-4.78987587E-08
+	rot = 4.7898844E-08,0.707106888,-0.707106769,-4.78988511E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -14556,6 +15478,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -14809,8 +15751,8 @@ PART
 {
 	part = KzProcFairingSide1_4281354190
 	partName = Part
-	persistentId = 2269231126
-	pos = 0.294422448,5.55545521,-6.47269726
+	persistentId = 492240515
+	pos = 0.294422448,5.55545521,-6.47270393
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.50000006,-0.50000006,0.50000006,0.50000006
@@ -14851,6 +15793,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -15102,15 +16064,15 @@ PART
 }
 PART
 {
-	part = ROE-XLR25_4281353386
+	part = ROE-XLR25_4289320064
 	partName = Part
-	persistentId = 2963845704
-	pos = 0.294422448,5.13545513,-6.99641418
+	persistentId = 2412465171
+	pos = 0.294422448,5.13545513,-6.99642944
 	attPos = 0,0,0
 	attPos0 = 0,0.0453624167,0
-	rot = -0.697477877,0,0,-0.716606438
-	attRot = 0.013525961,0,0,-0.999908566
-	attRot0 = 0,-0.013525961,0.999908566,0
+	rot = 0.691197932,0,0,0.722665608
+	attRot = -0.0222510435,0,0,0.999752641
+	attRot0 = 0,0.0222510379,-0.999752402,0
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
@@ -15144,6 +16106,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -15244,6 +16226,40 @@ PART
 		stagingEnabled = True
 		MM_DYNAMIC = true
 		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = PersistentEngine
+		isEnabled = True
+		HasPersistentThrust = True
+		HasPersistentHeadingEnabled = True
+		MaximizePersistentIsp = True
+		MaximizePersistentPower = False
+		maneuverToleranceInDegree = 90
+		persistentAutopilotMode = StabilityAssist
+		persistentThrust = 0
+		persistentIsp = 0
+		persistentThrottle = 0
+		persistentAverageDensity = 0
+		vesselAlignmentWithAutopilotMode = 0
+		persistentResourceChange = 
+		vesselDryMass = 0
+		persistentVesselTargetId = 00000000-0000-0000-0000-000000000000
+		persistentVesselTargetBodyName = 
+		persistentManeuverPatch = 
+		persistentManeuverNextPatch = 
+		persistentManeuverUT = 0
+		defaultsLoaded = True
+		stagingEnabled = True
 		EVENTS
 		{
 		}
@@ -15403,9 +16419,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 398.860504
-		initialFlightData = 398.860504
-		missionStartTime = 384843403.11438197
+		currentFlightData = 687.350281
+		initialFlightData = 687.350281
+		missionStartTime = 448469611.30102426
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15573,8 +16589,8 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4279462180
 	partName = Part
-	persistentId = 447069957
-	pos = -0.153282046,5.39393902,-6.34497547
+	persistentId = 1022014971
+	pos = -0.153282046,5.39393902,-6.34498024
 	attPos = 0,0,0
 	attPos0 = -0.447704494,-1.39572954,-0.258482337
 	rot = -0.377097547,-0.603546023,-0.563935757,-0.418934643
@@ -15613,6 +16629,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -15893,8 +16929,8 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4279433138
 	partName = Part
-	persistentId = 883222790
-	pos = 0.742126942,5.39393902,-6.34497738
+	persistentId = 1728554354
+	pos = 0.742126942,5.39393902,-6.34498215
 	attPos = 0,0,0
 	attPos0 = 0.447704494,-1.39572954,-0.258482337
 	rot = -0.563935757,-0.418934643,-0.377097547,-0.603545904
@@ -15933,6 +16969,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -16213,8 +17269,8 @@ PART
 {
 	part = GearFree_4281413098
 	partName = Part
-	persistentId = 3229353071
-	pos = 0.0251581073,4.66907501,-6.17446899
+	persistentId = 4038529065
+	pos = 0.0251581073,4.66907501,-6.17447376
 	attPos = 0,-1.90734863E-06,-0.33061111
 	attPos0 = -0.26926434,-1.22523022,0.466380119
 	rot = 0.0593953431,-0.0159148574,-0.258329302,0.964098096
@@ -16253,6 +17309,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -16522,8 +17598,8 @@ PART
 {
 	part = GearFree_4290785704
 	partName = Part
-	persistentId = 437948031
-	pos = 0.563686788,4.66907501,-6.17446899
+	persistentId = 2354159734
+	pos = 0.563686788,4.66907501,-6.17447376
 	attPos = 0,-1.90734863E-06,-0.33061111
 	attPos0 = 0.26926434,-1.22523022,0.466380119
 	rot = 0.0593953431,0.0159148797,0.258329272,0.964098096
@@ -16562,6 +17638,26 @@ PART
 			wasActiveBeforePartWasAdjusted = False
 		}
 		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
 		{
 			actionGroup = None
 			wasActiveBeforePartWasAdjusted = False
@@ -16831,11 +17927,11 @@ PART
 {
 	part = vernierEngine_4288510384
 	partName = Part
-	persistentId = 1881443089
-	pos = 0.409397006,5.56454659,-6.83129406
+	persistentId = 3901775143
+	pos = 0.409397006,5.56454659,-6.83129787
 	attPos = 0.070211798,0.0129460692,-5.58793589E-09
 	attPos0 = 0.114974558,-1.88205719,-0.429091454
-	rot = -0.491297871,0.508553386,-0.606180549,0.364067763
+	rot = -0.491297781,0.508553326,-0.606180489,0.364067733
 	attRot = 0.999999881,0,0,0
 	attRot0 = -0.604834795,-0.0690327883,-0.788235843,-0.0899652541
 	mir = 1,1,1
@@ -16875,6 +17971,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -17123,11 +18243,11 @@ PART
 {
 	part = vernierEngine_4287803060
 	partName = Part
-	persistentId = 2431730232
-	pos = -0.134668261,5.25043011,-6.83129406
+	persistentId = 2950068520
+	pos = -0.134668261,5.25043011,-6.83129787
 	attPos = 0.070211798,0.0129460692,-5.58793589E-09
 	attPos0 = -0.429090708,-1.88205719,-0.114974976
-	rot = -0.707001567,0.0122014806,-0.17119962,0.686069131
+	rot = -0.707001507,0.0122014806,-0.17119959,0.686069071
 	attRot = 0.999999881,0,0,0
 	attRot0 = -0.985049665,-0.11242865,-0.12968415,-0.0148014426
 	mir = 1,1,1
@@ -17137,7 +18257,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 0
-	sidx = 9
+	sidx = 7
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -17167,6 +18287,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -17415,8 +18559,8 @@ PART
 {
 	part = vernierEngine_4287802974
 	partName = Part
-	persistentId = 889108216
-	pos = 0.179447919,4.70636463,-6.83129406
+	persistentId = 4157506540
+	pos = 0.179447919,4.70636463,-6.83129787
 	attPos = 0.070211798,0.0129460692,-5.58793589E-09
 	attPos0 = -0.114974529,-1.88205719,0.4290905
 	rot = -0.508553267,-0.49129793,0.364067703,0.606180549
@@ -17429,7 +18573,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 0
-	sidx = 9
+	sidx = 7
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -17459,6 +18603,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -17707,11 +18875,11 @@ PART
 {
 	part = vernierEngine_4287802888
 	partName = Part
-	persistentId = 2980851578
-	pos = 0.723513186,5.02048016,-6.83129406
+	persistentId = 3140844521
+	pos = 0.723513186,5.02048016,-6.83129787
 	attPos = 0.070211798,0.0129460692,-5.58793589E-09
 	attPos0 = 0.429090738,-1.88205719,0.114974976
-	rot = -0.0122014657,-0.707001567,0.686069012,0.17119962
+	rot = -0.0122014731,-0.707001567,0.686069012,0.17119962
 	attRot = 0.999999881,0,0,0
 	attRot0 = -0.129684135,-0.01480156,0.985049605,0.112428658
 	mir = 1,1,1
@@ -17721,7 +18889,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 0
-	sidx = 9
+	sidx = 7
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -17751,6 +18919,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -17999,11 +19191,11 @@ PART
 {
 	part = vernierEngine_4288880032
 	partName = Part
-	persistentId = 2090354266
-	pos = 0.178891242,5.56662369,-6.82539082
+	persistentId = 1936254681
+	pos = 0.178891242,5.56662369,-6.82539463
 	attPos = 0.0365343094,-0.0653467178,-4.76837158E-07
 	attPos0 = -0.115531206,-1.87615395,-0.431168556
-	rot = -0.606180549,0.364067733,-0.491297901,0.508553386
+	rot = -0.606180489,0.364067644,-0.491297871,0.508553326
 	attRot = 0.999999881,0,0,0
 	attRot0 = -0.788235843,-0.0899653137,-0.604834795,-0.0690327883
 	mir = 1,1,1
@@ -18043,6 +19235,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -18291,11 +19507,11 @@ PART
 {
 	part = vernierEngine_4287802498
 	partName = Part
-	persistentId = 2034107869
-	pos = -0.13674587,5.01992416,-6.82539082
+	persistentId = 2639212941
+	pos = -0.13674587,5.01992416,-6.82539463
 	attPos = 0.0365343094,-0.0653467178,-4.76837158E-07
 	attPos0 = -0.431168318,-1.87615395,0.115530968
-	rot = -0.686069012,-0.171199605,0.0122014433,0.707001567
+	rot = -0.686069012,-0.17119959,0.0122014508,0.707001567
 	attRot = 0.999999881,0,0,0
 	attRot0 = -0.985049605,-0.112428673,0.12968412,0.0148015898
 	mir = 1,1,1
@@ -18305,7 +19521,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 0
-	sidx = 9
+	sidx = 8
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -18335,6 +19551,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -18583,8 +19823,8 @@ PART
 {
 	part = vernierEngine_4287802412
 	partName = Part
-	persistentId = 2476677590
-	pos = 0.409953684,4.70428658,-6.82539082
+	persistentId = 3483757900
+	pos = 0.409953684,4.70428658,-6.82539463
 	attPos = 0.0365343094,-0.0653467178,-4.76837158E-07
 	attPos0 = 0.115531236,-1.87615395,0.431168556
 	rot = -0.364067584,-0.606180549,0.508553267,0.491297871
@@ -18597,7 +19837,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 0
-	sidx = 9
+	sidx = 8
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -18627,6 +19867,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -18875,11 +20139,11 @@ PART
 {
 	part = vernierEngine_4287802326
 	partName = Part
-	persistentId = 3070603707
-	pos = 0.725590706,5.25098705,-6.82539082
+	persistentId = 4038401303
+	pos = 0.725590706,5.25098705,-6.82539463
 	attPos = 0.0365343094,-0.0653467178,-4.76837158E-07
 	attPos0 = 0.431168258,-1.87615395,-0.115531921
-	rot = 0.17119962,-0.686069131,0.707001567,-0.0122014657
+	rot = 0.171199605,-0.686069071,0.707001507,-0.0122014731
 	attRot = 0.999999881,0,0,0
 	attRot0 = 0.12968415,0.0148014426,0.985049665,0.112428673
 	mir = 1,1,1
@@ -18889,7 +20153,7 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 0
-	sidx = 9
+	sidx = 8
 	sqor = 2
 	sepI = 1
 	attm = 1
@@ -18919,6 +20183,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -19167,8 +20455,8 @@ PART
 {
 	part = vernierEngine_4288135816
 	partName = Part
-	persistentId = 796085921
-	pos = 0.294422388,5.67664289,-6.0912981
+	persistentId = 2015046987
+	pos = 0.294422388,5.67664289,-6.09130383
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = -5.96046448E-08,-1.14206028,-0.541187704
 	rot = 0.474859715,-0.523935497,-0.474859685,0.523935437
@@ -19211,6 +20499,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -19459,11 +20771,11 @@ PART
 {
 	part = vernierEngine_4287801732
 	partName = Part
-	persistentId = 112737370
-	pos = -0.246765137,5.13545513,-6.09129715
+	persistentId = 2478789234
+	pos = -0.246765137,5.13545513,-6.09130192
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = -0.541187584,-1.14205933,0
-	rot = 0.706254959,-0.0347018242,0.0347018614,0.70625484
+	rot = 0.70625484,-0.0347018205,0.0347018503,0.70625484
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 5.96046448E-08,2.60770321E-08,0.0490758158,0.998795152
 	mir = 1,1,1
@@ -19503,6 +20815,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -19751,11 +21087,11 @@ PART
 {
 	part = vernierEngine_4287801646
 	partName = Part
-	persistentId = 1456368159
-	pos = 0.294422567,4.59426785,-6.09129715
+	persistentId = 3726361583
+	pos = 0.294422567,4.59426785,-6.09130192
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = 1.1920929E-07,-1.14205933,0.541187346
-	rot = 0.523935556,0.474859715,0.523935497,0.474859625
+	rot = 0.523935556,0.474859655,0.523935497,0.474859625
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 0.0347019099,0.70625484,0.0347018205,0.70625478
 	mir = 1,1,1
@@ -19795,6 +21131,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -20043,11 +21403,11 @@ PART
 {
 	part = vernierEngine_4287801560
 	partName = Part
-	persistentId = 4221936066
-	pos = 0.835610032,5.13545513,-6.09129715
+	persistentId = 3583641698
+	pos = 0.835610032,5.13545513,-6.09130192
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = 0.541187584,-1.14205933,0
-	rot = 0.0347018205,0.7062549,0.7062549,-0.0347018652
+	rot = 0.034701813,0.7062549,0.7062549,-0.0347018577
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 0.0490758121,0.998795152,2.98023224E-08,-3.16649675E-08
 	mir = 1,1,1
@@ -20087,6 +21447,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -20335,11 +21719,11 @@ PART
 {
 	part = vernierEngine_4287801062
 	partName = Part
-	persistentId = 1451191241
-	pos = 0.0859178901,5.63882971,-6.03403282
+	persistentId = 3300118795
+	pos = 0.0859178901,5.63882971,-6.03403854
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = -0.208504558,-1.084795,-0.503374517
-	rot = 0.56699115,-0.422517627,-0.362141103,0.607333362
+	rot = 0.56699121,-0.422517657,-0.362141132,0.607333422
 	attRot = 0,0,0,-0.999999881
 	attRot0 = -0.0285262764,-0.554837465,0.0426926315,0.83037281
 	mir = 1,1,1
@@ -20379,6 +21763,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -20627,11 +22035,11 @@ PART
 {
 	part = vernierEngine_4287800834
 	partName = Part
-	persistentId = 233587913
-	pos = -0.20895201,4.92695093,-6.03403187
+	persistentId = 1547001837
+	pos = -0.20895201,4.92695093,-6.03403664
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = -0.503374457,-1.08479404,0.2085042
-	rot = 0.699688435,0.102158166,0.173377186,0.68552196
+	rot = 0.699688375,0.102158144,0.173377171,0.685521901
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 0.0100171855,0.194832891,0.0503594428,0.979491591
 	mir = 1,1,1
@@ -20671,6 +22079,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -20919,11 +22351,11 @@ PART
 {
 	part = vernierEngine_4287800742
 	partName = Part
-	persistentId = 201959465
-	pos = 0.502927065,4.63208103,-6.03403187
+	persistentId = 2883543840
+	pos = 0.502927065,4.63208103,-6.03403664
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = 0.208504617,-1.08479404,0.503374159
-	rot = 0.422517687,0.566991031,0.607333481,0.362141043
+	rot = 0.422517687,0.566991031,0.607333481,0.362141103
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 0.0426927209,0.83037281,0.0285263956,0.554837465
 	mir = 1,1,1
@@ -20963,6 +22395,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -21211,11 +22667,11 @@ PART
 {
 	part = vernierEngine_4287800650
 	partName = Part
-	persistentId = 2041074553
-	pos = 0.797796845,5.34395981,-6.03403187
+	persistentId = 3285968766
+	pos = 0.797796845,5.34395981,-6.03403664
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = 0.503374398,-1.08479404,-0.208504677
-	rot = -0.102158181,0.699688315,0.685522079,-0.173377156
+	rot = -0.102158159,0.699688315,0.685522079,-0.173377126
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 0.0503594205,0.979491591,-0.0100170067,-0.194832891
 	mir = 1,1,1
@@ -21255,6 +22711,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -21503,8 +22983,8 @@ PART
 {
 	part = vernierEngine_4287799936
 	partName = Part
-	persistentId = 3919000799
-	pos = 0.503438711,5.64006567,-6.05080986
+	persistentId = 1458041551
+	pos = 0.503438711,5.64006567,-6.05081558
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = 0.209016263,-1.10157204,-0.504610002
 	rot = 0.362141132,-0.607333362,-0.56699115,0.422517657
@@ -21547,6 +23027,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -21795,11 +23299,11 @@ PART
 {
 	part = vernierEngine_4287799702
 	partName = Part
-	persistentId = 1165035232
-	pos = -0.210187435,5.34447145,-6.05080986
+	persistentId = 2698802517
+	pos = -0.210187435,5.34447145,-6.05081463
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = -0.504609883,-1.10157204,-0.209016323
-	rot = 0.685522139,-0.173377171,-0.102158174,0.699688375
+	rot = 0.685522079,-0.173377156,-0.102158137,0.699688315
 	attRot = 0,0,0,-0.999999881
 	attRot0 = -0.0100170374,-0.194832891,0.0503594354,0.979491651
 	mir = 1,1,1
@@ -21839,6 +23343,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -22087,11 +23615,11 @@ PART
 {
 	part = vernierEngine_4287799604
 	partName = Part
-	persistentId = 3151634070
-	pos = 0.0854062289,4.63084507,-6.05080986
+	persistentId = 4275648173
+	pos = 0.0854062289,4.63084507,-6.05081463
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = -0.209016219,-1.10157204,0.504610121
-	rot = 0.607333422,0.362141103,0.422517687,0.566990972
+	rot = 0.607333422,0.362141073,0.422517717,0.566990972
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 0.0285264254,0.554837525,0.0426926911,0.830372691
 	mir = 1,1,1
@@ -22131,6 +23659,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}
@@ -22379,11 +23931,11 @@ PART
 {
 	part = vernierEngine_4287799506
 	partName = Part
-	persistentId = 3242963947
-	pos = 0.79903239,4.92643929,-6.05080986
+	persistentId = 3293326672
+	pos = 0.79903239,4.92643929,-6.05081463
 	attPos = 0.0584397838,0.0606747866,-6.8115007E-09
 	attPos0 = 0.504609942,-1.10157204,0.209015846
-	rot = 0.173377171,0.68552196,0.699688435,0.102158144
+	rot = 0.173377141,0.68552196,0.699688435,0.102158144
 	attRot = 0,0,0,-0.999999881
 	attRot0 = 0.0503594503,0.979491591,0.0100171855,0.194832876
 	mir = 1,1,1
@@ -22423,6 +23975,30 @@ PART
 		RemoveSameVesselInteraction
 		{
 			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			active = False
 			wasActiveBeforePartWasAdjusted = False
 		}
 	}

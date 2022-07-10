@@ -1,0 +1,36 @@
+tag = Type\Unmanned
+craftName = R-120-7 and LunarSat-5
+cachedCraftData
+{
+	origChecksum = c474031311c5a751a26a37f1e9fb4e49
+	cacheVersion = 3
+	name = R-120-7 and LunarSat-5
+	kspVersion = 1.12.3
+	stagesCount = 9
+	cost = 10637.3799
+	partCount = 61
+	mass = 129.208969
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = RO-EarlyTVCamera
+	partNames = RO-EarlyMagnet
+	partNames = ROT-RingDecoupler
+	partNames = ROE-AJ10Early
+	partNames = ROSmallSpinMotor
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = radialDecoupler1-2
+	partNames = ROE-LR87.Single
+	partNames = parachuteRadial
+	partNames = launchClamp1
+}

@@ -1,0 +1,29 @@
+craftName = R-110-12 and EarthWeatherSat-5
+cachedCraftData
+{
+	origChecksum = 8b2b9392ffc8626259865395e47e44ab
+	cacheVersion = 3
+	name = R-110-12 and EarthWeatherSat-5
+	kspVersion = 1.12.3
+	stagesCount = 5
+	cost = 6051.81885
+	partCount = 44
+	mass = 56.9193001
+	description = 
+	crewCapacity = 0
+	partNames = proceduralAvionics
+	partNames = ROS-StaticSolarPanel
+	partNames = RO-RFTank-Integral
+	partNames = RCSBlockSmall.69
+	partNames = RO-RFTank-SM
+	partNames = RSBRibbedBase
+	partNames = KzProcFairingSide1
+	partNames = ROT-GenericTank-Integral
+	partNames = RO.FASA.MercuryPodRCS
+	partNames = ROE-RD0105
+	partNames = SSTUHollowRing.Interstage
+	partNames = ROE-RD108
+	partNames = ROE-MediumLC
+	partNames = launchClamp1
+	partNames = parachuteRadial
+}
